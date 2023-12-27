@@ -99,15 +99,15 @@ function Navbar() {
                   ))}
                 </ul>
                 <aside className="space-y-2 flex flex-col font-semibold relative self-start md:self-end">
-                  <a href="#">m.ighe@hotmail.com</a>
-                  <a href="#">+1 (647) 373 9841</a>
+                  <a href="mailto: m.ighe@hotmail.com">m.ighe@hotmail.com</a>
+                  <a href="https://api.whatsapp.com/send?phone=16473739841">+1 (647) 373 9841</a>
                   <span className="flex gap-3 text-xl">
-                    <a href="#"><BiLogoFacebook /></a>
-                    <a href="#"><BiLogoInstagram /></a>
-                    <a href="#"><BiLogoTwitter /></a>
-                    <a href="#"><BiLogoYoutube /></a>
-                    <a href="#"><BiLogoLinkedin /></a>
-                    <a href="#"><BiLogoGithub /></a>
+                    <a href="http://facebook.com/katarighe"><BiLogoFacebook /></a>
+                    <a href="http://instagram.com/m.ighe"><BiLogoInstagram /></a>
+                    <a href="http://twitter.com/katarighe"><BiLogoTwitter /></a>
+                    <a href="http://youtube.com/katarighe"><BiLogoYoutube /></a>
+                    <a href="http://linkedin.com/mighe"><BiLogoLinkedin /></a>
+                    <a href="http://github.com/katarighe"><BiLogoGithub /></a>
                   </span>
                 </aside>
               </div>
