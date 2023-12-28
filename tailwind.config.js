@@ -18,7 +18,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        roboto: ['Roboto', 'sans-serif'],
+        robotoOriginal: ['Roboto', 'sans-serif'],
         robotoCondensed: ['Roboto Condensed', 'sans-serif'],
       },
     },
