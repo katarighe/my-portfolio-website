@@ -22,6 +22,16 @@ const navigation = [
   { name: "Contact", href: "/contact" },
 ];
 
+const MiddleText = () => {
+  return (
+    <div className="flex items-center">
+      <p className="text-white font-semibold md:font-bold text-lg md:text-xl font-robotoCondensed">
+        Mohamed Aden Ighe
+      </p>
+    </div>
+  );
+};
+
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showShadow, setShowShadow] = useState(false);
@@ -60,6 +70,7 @@ function Navbar() {
               <img src={logo} alt={logo} className="w-10 md:w-16" />
             </a>
           </div>
+          <MiddleText />
           <div className="flex">
             <button
               type="button"
@@ -94,7 +105,7 @@ function Navbar() {
                       <Link
                         to={item.href}
                         onClick={() => setMobileMenuOpen(false)}
-                        className="uppercase text-4xl font-bold text-black md:text-6xl">
+                        className="uppercase text-4xl flex-gap-10 font-robotoCondensed font-bold text-black md:text-6xl">
                         {item.name}
                       </Link>
                     </li>
@@ -103,7 +114,7 @@ function Navbar() {
                 <aside className="space-y-2 flex flex-col text-2xl font-semibold relative self-start md:self-end font-robotoOriginal">
                   <a href="mailto: m.ighe@hotmail.com">m.ighe@hotmail.com</a>
                   <a href="https://api.whatsapp.com/send?phone=16473739841">+1 (647) 373 9841</a>
-                  <span className="flex gap-3 text-4xl">
+                  <span className="flex gap-3 text-2xl">
                     <a href="http://facebook.com/katarighe"><BiLogoFacebook /></a>
                     <a href="http://instagram.com/m.ighe"><BiLogoInstagram /></a>
                     <a href="http://twitter.com/katarighe"><BiLogoTwitter /></a>
