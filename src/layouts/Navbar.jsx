@@ -26,7 +26,7 @@ const MiddleText = () => {
   return (
     <div className="flex items-center">
       <p className="text-white font-semibold md:font-bold text-lg md:text-xl font-robotoCondensed">
-        Mohamed Aden Ighe
+        MAI
       </p>
     </div>
   );
