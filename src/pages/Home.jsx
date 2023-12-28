@@ -127,7 +127,7 @@ function Home() {
 
   return (
     <>
-      <Hero name="Mohamed Aden Ighe" details="FULL STACK WEB DEVELOPER / DATA ANALYST" />
+      <Hero name="Mohamed Aden Ighe" details="FULL STACK WEB DEVELOPER / DATA ANALYST" backgroundImage="src/assets/coding-background.jpg"/>
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto">
