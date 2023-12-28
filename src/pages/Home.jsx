@@ -173,12 +173,12 @@ function Home() {
                                 {tech}
                               </span>
                             ))}
-                            <div className="mt-4 flex justify-start gap-5 self-end text-sm">
+                            <div className="mt-4 flex justify-start gap-5 self-end text-sm ">
                               <a
                                 href={item.source}
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed">
+                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300">
                                 <CodeBracketIcon className="w-4" />
                                 Source Code
                               </a>
@@ -186,7 +186,7 @@ function Home() {
                                 href={item.live}
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed">
+                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300">
                                 <EyeIcon className="w-4" />
                                 Live Preview
                               </a>
