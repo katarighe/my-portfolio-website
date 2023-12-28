@@ -9,7 +9,9 @@ import {
   BiLogoInstagram,
   BiLogoTwitter,
   BiLogoGithub,
-  BiLogoYoutube
+  BiLogoYoutube,
+  BiLogoGoogle,
+  BiBook
 } from "react-icons/bi";
 import logo from '../assets/react.svg';
 
@@ -44,7 +46,7 @@ function Navbar() {
 
   return (
     <div
-      className={`bg-new sticky w-full bg-violet-700 transition-all duration-200 font-roboto
+      className={`bg-new sticky w-full bg-violet-700 transition-all duration-200 font-robotoCondensed
       ${showShadow ? "shadow-md" : ""}`
       }
       id="Home">
@@ -53,8 +55,8 @@ function Navbar() {
           className="flex items-center justify-between py-4 container"
           aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#hero">
-              <span className="sr-only font-semibold md:font-bold text-lg md:text-xl">Portfolio</span>
+            <a href="/">
+              <span className="sr-only font-semibold md:font-bold text-lg md:text-xl font-robotoCondensed">Portfolio</span>
               <img src={logo} alt={logo} className="w-10 md:w-16" />
             </a>
           </div>
@@ -88,7 +90,7 @@ function Navbar() {
                 <ul className="space-y-3 md:space-y-6">
                   {navigation.map((item) => (
                     <li key={item.name} className="flex justify-start items-center group/item">
-                      <p className={`font-semibold text-xs transform rotate-90 uppercase md:text-lg group/edt ${isPageActive ===  item.href ? 'visible' : 'invisible group-hover/item:visible'}`}>menu</p>
+                      <p className={`font-semibold font-robotoCondensed text-xs transform rotate-90 uppercase md:text-lg group/edt ${isPageActive ===  item.href ? 'visible' : 'invisible group-hover/item:visible'}`}>⭐</p>
                       <Link
                         to={item.href}
                         onClick={() => setMobileMenuOpen(false)}
@@ -98,16 +100,18 @@ function Navbar() {
                     </li>
                   ))}
                 </ul>
-                <aside className="space-y-2 flex flex-col font-semibold relative self-start md:self-end font-roboto">
+                <aside className="space-y-2 flex flex-col text-2xl font-semibold relative self-start md:self-end font-robotoOriginal">
                   <a href="mailto: m.ighe@hotmail.com">m.ighe@hotmail.com</a>
                   <a href="https://api.whatsapp.com/send?phone=16473739841">+1 (647) 373 9841</a>
-                  <span className="flex gap-3 text-xl">
+                  <span className="flex gap-3 text-4xl">
                     <a href="http://facebook.com/katarighe"><BiLogoFacebook /></a>
                     <a href="http://instagram.com/m.ighe"><BiLogoInstagram /></a>
                     <a href="http://twitter.com/katarighe"><BiLogoTwitter /></a>
                     <a href="http://youtube.com/katarighe"><BiLogoYoutube /></a>
                     <a href="http://linkedin.com/mighe"><BiLogoLinkedin /></a>
                     <a href="http://github.com/katarighe"><BiLogoGithub /></a>
+                    <a href="https://scholar.google.com/citations?user=p_BiBB0AAAAJ"><BiLogoGoogle /></a>
+                    <a href="https://wellfound.com/u/katarighe"><BiBook /></a>
                   </span>
                 </aside>
               </div>
