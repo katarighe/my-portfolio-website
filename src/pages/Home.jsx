@@ -131,7 +131,7 @@ function Home() {
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto">
-          <img src="vite.svg" alt="About Me" className="mr-4 max-w-[5rem] max-h-[5rem] rounded-full" />
+          <img src="src/assets/mai-profile.jpg" alt="About Me" className="mr-4 max-w-[20rem] max-h-[20rem] mx-auto flex items-center" />
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">About Me</h3>
             <p className="text-base font-robotoOriginal">Dedicated full-stack developer and data analyst committed to ongoing skill development. I relish learning new languages and frameworks, and I apply a focused, mindful approach to deliver clean, well-tested code. I seek opportunities to leverage my expertise in impactful projects that make a difference through thoughtful web development.</p>
           </article>
@@ -203,7 +203,7 @@ function Home() {
               to="/project"
               className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300">
               <IoIosArrowRoundForward className="text-2xl" />
-                MY PROJECTS
+                MORE PROJECTS
             </Link>
             <Link
               to="/contact"
