@@ -13,7 +13,7 @@ import {
   BiLogoGoogle,
   BiBook
 } from "react-icons/bi";
-import logo from '../assets/react.svg';
+import logo from '../assets/mai-logo.png';
 
 const navigation = [
   { name: "Homepage", href: "/" },
@@ -74,7 +74,7 @@ function Navbar() {
           <div className="flex">
             <button
               type="button"
-              className="inline-flex items-center justify-center rounded-md text-white"
+              className="inline-flex items-center justify-center rounded-md text-black"
               onClick={() => setMobileMenuOpen(true)}>
               <span className="sr-only">Open main menu</span>
               <BiMenuAltRight className="text-4xl" aria-hidden="true" />
@@ -85,13 +85,13 @@ function Navbar() {
           as="div"
           open={mobileMenuOpen}
           onClose={setMobileMenuOpen}>
-          <div className="fixed inset-0 z-50 bg-white text-white" />
+          <div className="fixed inset-0 z-50 bg-violet-400 bg-opacity-13 text-white" />
           <Dialog.Panel className="fixed inset-y-0 z-50 w-full h-screen overflow-auto">
             <section className="container h-full">
               <div className="flex justify-end py-10">
                 <button
                   type="button"
-                  className=""
+                  className="hover:scale-110 transition-transform duration-300"
                   onClick={() => setMobileMenuOpen(false)}>
                   <span className="sr-only">Close</span>
                   <BiX className="text-4xl" aria-hidden="true" />
@@ -101,28 +101,27 @@ function Navbar() {
                 <ul className="space-y-3 md:space-y-6">
                   {navigation.map((item) => (
                     <li key={item.name} className="flex justify-start items-center group/item">
-                      <p className={`font-semibold font-robotoCondensed text-xs transform rotate-90 uppercase md:text-lg group/edt ${isPageActive ===  item.href ? 'visible' : 'invisible group-hover/item:visible'}`}>⭐</p>
                       <Link
                         to={item.href}
                         onClick={() => setMobileMenuOpen(false)}
-                        className="uppercase text-4xl flex-gap-10 font-robotoCondensed font-bold text-black md:text-6xl">
+                        className="uppercase text-4xl flex-gap-10 font-robotoCondensed font-bold text-black md:text-6xl hover:scale-110 transition-transform duration-300">
                         {item.name}
                       </Link>
                     </li>
                   ))}
                 </ul>
                 <aside className="space-y-2 flex flex-col text-2xl font-semibold relative self-start md:self-end font-robotoOriginal">
-                  <a href="mailto: m.ighe@hotmail.com">m.ighe@hotmail.com</a>
-                  <a href="https://api.whatsapp.com/send?phone=16473739841">+1 (647) 373 9841</a>
+                  <a href="mailto: m.ighe@hotmail.com" className="hover:scale-110 transition-transform duration-300">m.ighe@hotmail.com</a>
+                  <a href="https://api.whatsapp.com/send?phone=16473739841" className="hover:scale-110 transition-transform duration-300">+1 (647) 373 9841</a>
                   <span className="flex gap-3 text-2xl">
-                    <a href="http://facebook.com/katarighe"><BiLogoFacebook /></a>
-                    <a href="http://instagram.com/m.ighe"><BiLogoInstagram /></a>
-                    <a href="http://twitter.com/katarighe"><BiLogoTwitter /></a>
-                    <a href="http://youtube.com/katarighe"><BiLogoYoutube /></a>
-                    <a href="http://linkedin.com/mighe"><BiLogoLinkedin /></a>
-                    <a href="http://github.com/katarighe"><BiLogoGithub /></a>
-                    <a href="https://scholar.google.com/citations?user=p_BiBB0AAAAJ"><BiLogoGoogle /></a>
-                    <a href="https://wellfound.com/u/katarighe"><BiBook /></a>
+                    <a href="http://facebook.com/katarighe" className="hover:scale-110 transition-transform duration-300"><BiLogoFacebook /></a>
+                    <a href="http://instagram.com/m.ighe" className="hover:scale-110 transition-transform duration-300"><BiLogoInstagram /></a>
+                    <a href="http://twitter.com/katarighe" className="hover:scale-110 transition-transform duration-300"><BiLogoTwitter /></a>
+                    <a href="http://youtube.com/katarighe" className="hover:scale-110"><BiLogoYoutube /></a>
+                    <a href="http://linkedin.com/mighe" className="hover:scale-110 transition-transform duration-300"><BiLogoLinkedin /></a>
+                    <a href="http://github.com/katarighe" className="hover:scale-110 transition-transform duration-300"><BiLogoGithub /></a>
+                    <a href="https://scholar.google.com/citations?user=p_BiBB0AAAAJ" className="hover:scale-110 transition-transform duration-300"><BiLogoGoogle /></a>
+                    <a href="https://wellfound.com/u/katarighe" className="hover:scale-110 transition-transform duration-300"><BiBook /></a>
                   </span>
                 </aside>
               </div>
