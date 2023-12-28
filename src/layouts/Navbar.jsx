@@ -14,9 +14,9 @@ import {
 import logo from '../assets/react.svg';
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Projects", href: "/Project" },
-  { name: "About", href: "/About" },
+  { name: "Homepage", href: "/" },
+  { name: "My Projects", href: "/Project" },
+  { name: "About Me", href: "/About" },
   { name: "Contact", href: "/Contact" },
 ];
 
@@ -44,7 +44,7 @@ function Navbar() {
 
   return (
     <div
-      className={`bg-new sticky w-full bg-black transition-all duration-200 font-roboto 
+      className={`bg-new sticky w-full bg-black transition-all duration-200 font-Roboto 
       ${showShadow ? "shadow-md" : ""}`
       }
       id="Home">
@@ -80,7 +80,7 @@ function Navbar() {
                   type="button"
                   className=""
                   onClick={() => setMobileMenuOpen(false)}>
-                  <span className="sr-only">Close menu</span>
+                  <span className="sr-only">Close</span>
                   <BiX className="text-4xl" aria-hidden="true" />
                 </button>
               </div>
