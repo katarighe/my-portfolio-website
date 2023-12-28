@@ -26,7 +26,7 @@ const MiddleText = () => {
   return (
     <div className="flex items-center">
       <p className="text-white font-semibold md:font-bold text-lg md:text-xl font-robotoCondensed">
-        Mohamed Aden Ighe
+        MAI
       </p>
     </div>
   );
@@ -56,13 +56,11 @@ function Navbar() {
 
   return (
     <div
-      className={`bg-new sticky w-full bg-violet-700 transition-all duration-200 font-robotoCondensed
-      ${showShadow ? "shadow-md" : ""}`
-      }
-      id="Home">
-      <header>
+    className={`sticky w-full top-0 z-20 bg-violet-700 transition-all duration-200 font-robotoCondensed ${showShadow ? "shadow-sm shadow-gray-800" : ""}`}
+    >
+      <header className="">
         <nav
-          className="flex items-center justify-between py-4 container"
+          className="flex items-center justify-between py-5 container"
           aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/">
