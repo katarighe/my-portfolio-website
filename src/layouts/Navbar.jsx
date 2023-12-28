@@ -63,10 +63,10 @@ function Navbar() {
           className="flex items-center justify-between py-5 container"
           aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="/">
+          <Link to="/">
               <span className="sr-only font-semibold md:font-bold text-lg md:text-xl font-robotoCondensed">Portfolio</span>
               <img src={logo} alt={logo} className="w-10 md:w-16" />
-            </a>
+          </Link>
           </div>
           <MiddleText />
           <div className="flex">
