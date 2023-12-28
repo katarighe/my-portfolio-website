@@ -44,7 +44,7 @@ function Navbar() {
 
   return (
     <div
-      className={`bg-new sticky w-full bg-black transition-all duration-200 font-Roboto 
+      className={`bg-new sticky w-full bg-violet-700 transition-all duration-200 font-roboto
       ${showShadow ? "shadow-md" : ""}`
       }
       id="Home">
@@ -98,7 +98,7 @@ function Navbar() {
                     </li>
                   ))}
                 </ul>
-                <aside className="space-y-2 flex flex-col font-semibold relative self-start md:self-end">
+                <aside className="space-y-2 flex flex-col font-semibold relative self-start md:self-end font-roboto">
                   <a href="mailto: m.ighe@hotmail.com">m.ighe@hotmail.com</a>
                   <a href="https://api.whatsapp.com/send?phone=16473739841">+1 (647) 373 9841</a>
                   <span className="flex gap-3 text-xl">
