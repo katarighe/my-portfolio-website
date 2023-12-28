@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './layouts/Navbar';
-import Hero from './components/hero';
+import Hero from './components/Hero';
 
 function App() {
 
