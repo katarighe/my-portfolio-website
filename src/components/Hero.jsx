@@ -21,11 +21,13 @@ function Hero({ name, details, backgroundImage }) {
 Hero.defaultProps = {
   name: 'Your Name',
   details: 'WEB-DESIGNER',
+  backgroundImage: '../assets/coding-background.jpg',
 };
 
 Hero.propTypes = {
   name: PropTypes.string,
   details: PropTypes.string,
+  backgroundImage: PropTypes.string.isRequired,
 };
 
 export default Hero;
