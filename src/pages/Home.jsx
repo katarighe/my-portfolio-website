@@ -15,7 +15,8 @@ import {
   SiFigma,
   SiNpm,
 } from "react-icons/si";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosChatboxes } from "react-icons/io";
+import { IoIosAdd } from "react-icons/io";
 import { TbBrandVscode } from "react-icons/tb";
 import {
   EyeIcon,
@@ -24,7 +25,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 import Hero from "../components/Hero";
-import project1 from '../assets/mai-logo.png'
+import project1 from '../assets/mai-logo2.png'
 
 function Home() {
   const skills = [
@@ -165,7 +166,7 @@ function Home() {
                       className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                         <div className="flex h-full items-start justify-start">
                           <div className="m-6 text-white">
-                            <h5 className="mb-3 text-lg font-bold font-robotoCondensed">{item.title}</h5>
+                            <h5 className="mb-3 text-2xl font-bold font-robotoCondensed">{item.title}</h5>
                             {techStackToArray(item.techStack).map((tech, index) => (
                               <span
                                 key={index}
@@ -178,7 +179,7 @@ function Home() {
                                 href={item.source}
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300">
+                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg">
                                 <CodeBracketIcon className="w-4" />
                                 Source Code
                               </a>
@@ -186,7 +187,7 @@ function Home() {
                                 href={item.live}
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300">
+                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg">
                                 <EyeIcon className="w-4" />
                                 Live Preview
                               </a>
@@ -202,13 +203,13 @@ function Home() {
             <Link
               to="/my-projects"
               className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300">
-              <IoIosArrowRoundForward className="text-2xl" />
+              <IoIosAdd className="text-2xl" />
                 MORE PROJECTS
             </Link>
             <Link
               to="/contact"
               className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300">
-              <IoIosArrowRoundForward className="text-2xl" />
+              <IoIosChatboxes className="text-2xl" />
                 CONTACT ME
             </Link>
           </div>
