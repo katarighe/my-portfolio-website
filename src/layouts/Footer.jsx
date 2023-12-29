@@ -13,12 +13,12 @@ function Header() {
             </p>
           </div>
           <div className="flex flex-col space-y-2 text-right font-robotoOriginal">
-            <a href="mailto:m.ighe@hotmail.com" className="font-semibold text-base hover:underline">
+            <a href="mailto:m.ighe@hotmail.com" className="font-semibold text-base">
               m.ighe@hotmail.com
             </a>
             <a
               href="https://api.whatsapp.com/send?phone=16473739841"
-              className="font-semibold text-base hover:underline"
+              className="font-semibold text-base"
             >
               +1 (647) 373 9841
             </a>
