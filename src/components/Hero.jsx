@@ -11,8 +11,8 @@ function Hero({ name, details, backgroundImage }) {
   return (
     <section className="bg-green-500 text-white bg-opacity-100" style={sectionStyle}>
       <div className="container flex flex-col justify-center items-center text-center h-screen gap-0 bg-opacity-50">
-        <h1 className="font-bold font-robotoCondensed text-[6rem] p-0 m-0 leading-[80%] uppercase">{name}</h1>
-        <h3 className="font-style: italic font-robotoCondensed text-[2.5rem] p-0 m-0 uppercase">{details}</h3>
+        <h1 className="font-bold font-robotoCondensed text-[5rem] p-0 m-0 leading-[80%] uppercase">{name}</h1>
+        <h3 className="font-style: italic font-robotoCondensed text-[2rem] p-0 m-0 uppercase">{details}</h3>
       </div>
     </section>
   );
