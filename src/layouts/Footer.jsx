@@ -14,15 +14,15 @@ function Header() {
           </div>
           <div className="flex flex-col space-y-2 text-right font-robotoOriginal">
             <a href="mailto:m.ighe@hotmail.com" className="font-semibold text-base">
-              m.ighe@hotmail.com
+            📫 m.ighe@hotmail.com
             </a>
             <a
               href="https://api.whatsapp.com/send?phone=16473739841"
               className="font-semibold text-base"
             >
-              +1 (647) 373 9841
+             📞 +1 (647) 373 9841
             </a>
-            <span className="font-light text-m">Diego Garcia, British Indian Ocean Territory</span>
+            <span className="font-light text-m"> 📌 Diego Garcia, British Indian Ocean Territory</span>
           </div>
         </div>
       </header>
