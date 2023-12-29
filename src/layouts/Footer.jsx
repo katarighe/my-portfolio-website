@@ -4,8 +4,8 @@ function Header() {
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex-grow">
             <h1 className="text-2xl font-bold tracking-tight text-shadow-md font-robotoCondensed">
-              <span className="text-white opacity-75">Welcome to</span>
-              <span className="text-white">MAI&apos;s</span>
+              <span className="text-white opacity-75">Welcome to</span>{" "}
+              <span className="text-white">MAI&apos;s</span>{" "}
               <span className="text-indigo-400">Digital Universe</span>
             </h1>
             <p className="mt-4 text-m font-medium font-robotoOriginal">
