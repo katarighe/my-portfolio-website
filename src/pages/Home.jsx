@@ -8,6 +8,9 @@ import {
   SiNodedotjs,
   SiFigma,
   SiNpm,
+  SiReact,
+  SiRedux,
+  SiRuby,
 } from "react-icons/si";
 import { IoIosChatboxes } from "react-icons/io";
 import { IoIosAdd } from "react-icons/io";
@@ -27,7 +30,9 @@ function Home() {
     { name: "HTML", icon: <FaHtml5 />, color: "text-[#E44D26]" },
     { name: "CSS", icon: <FaCss3 />, color: "text-blue-600" },
     { name: "JavaScript", icon: <SiJavascript />, color: "text-yellow-400" },
-    { name: "ReactJS", icon: <FaReact />, color: "text-{#00D8FF}" },
+    { name: "React", icon: <SiReact />, color: "text-red-400" },
+    { name: "Redux", icon: <SiRedux />, color: "text-red-400" },
+    { name: "Ruby", icon: <SiRuby />, color: "text-red-400" },
     { name: "NodeJS", icon: <SiNodedotjs />, color: "text-[#539E43]" },
     { name: "Figma ", icon: <SiFigma />, color: "text-red-500" },
     { name: "Chrome", icon: <FaChrome />, color: "text-yellow-500" },
