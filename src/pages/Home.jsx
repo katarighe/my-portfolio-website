@@ -317,7 +317,7 @@ function Home() {
               rel="noopener noreferrer"
             >
               <IoIosPaper className="text-2xl" />
-              MY RESUME / CV
+              RESUME / CV
             </a>
           </div>
         </div>
