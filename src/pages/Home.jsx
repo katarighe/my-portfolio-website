@@ -140,12 +140,12 @@ function Home() {
               About Me
             </h3>
             <p className="text-base font-robotoOriginal">
-              A dedicated full-stack developer and data analyst committed to
-              ongoing skill development. I relish learning new languages and
-              frameworks, and I apply a focused, mindful approach to deliver
-              clean, well-tested code. I seek opportunities to leverage my
-              expertise in impactful projects that make a difference through
-              thoughtful web development.
+              I am a software developer and full-stack engineer with the
+              expertise to assist you in building projects, features, or
+              websites. Take a glance at my portfolio and explore my
+              professional experience. If you find something you like, or if you
+              have a specific project that requires coding, feel free to reach
+              out to me.
             </p>
           </article>
           <article className="max-w-[35rem] mx-auto">
