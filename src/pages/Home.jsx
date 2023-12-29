@@ -170,7 +170,7 @@ function Home() {
                             {techStackToArray(item.techStack).map((tech, index) => (
                               <span
                                 key={index}
-                                className="mr-2 my-1 border-2 badge border-newbBlue badge-outline text-newbBlue font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-2 px-4 rounded-full">
+                                className="mr-2 my-1 border-2 badge border-newbBlue badge-outline text-newbBlue font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full">
                                 {tech}
                               </span>
                             ))}
