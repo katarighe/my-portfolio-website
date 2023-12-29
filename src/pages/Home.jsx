@@ -53,7 +53,7 @@ function Home() {
       image: project1,
       details:
         "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
-      techStack: "React JS, Route, Redux, API",
+      techStack: "ReactJS, Route, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
       source: "https://github.com/katarighe/capstone-metrics-webapp",
     },

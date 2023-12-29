@@ -37,7 +37,7 @@ function MyProjects() {
       image: project1,
       details:
         "A budget app named SmartPocket Budget keeps track of all your expenses associated with categories.",
-      techStack: "ReactJS, Redux, Route, Tailwind CSS, DaisyUI, API",
+      techStack: "ReactJS, Redux, Route, CSS, API",
       live: "https://moyen-budget.onrender.com/",
       source: "https://github.com/katarighe/budget-app",
     },
