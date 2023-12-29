@@ -56,7 +56,7 @@ function Navbar() {
 
   return (
     <div
-    className={`sticky w-full top-0 z-20 bg-violet-700 transition-all duration-200 font-robotoCondensed ${showShadow ? "shadow-sm shadow-gray-800" : ""}`}
+    className={`sticky w-full top-0 z-20 bg-gradient-to-r from-indigo-500 to-blue-500 transition-all duration-200 font-robotoCondensed ${showShadow ? "shadow-sm shadow-gray-800" : ""}`}
     >
       <header className="">
         <nav
@@ -83,7 +83,7 @@ function Navbar() {
           as="div"
           open={mobileMenuOpen}
           onClose={setMobileMenuOpen}>
-          <div className="fixed inset-0 z-50 bg-violet-400 bg-opacity-13 text-white" />
+          <div className="fixed inset-0 z-50 bg-gradient-to-r from-indigo-400 to-blue-900 bg-opacity-15" />
           <Dialog.Panel className="fixed inset-y-0 z-50 w-full h-screen overflow-auto">
             <section className="container h-full">
               <div className="flex justify-end py-10">
