@@ -48,7 +48,7 @@ function Home() {
       image: project1,
       details:
         "A frontend/backend application that allows users to book appointments with doctors. Access to the application requires users to sign up or sign in, which can be done through the provided forms.",
-      techStack: "Ruby, Rails, ReactJS, PostgreSQL, Bootstrap, & API",
+      techStack: "Ruby, Rails, ReactJS, PostgreSQL, Bootstrap, API",
       live: "https://book-doctor-appointment-frontend.netlify.app/",
       source: "https://github.com/katarighe/book-appointment-back-end",
     },
@@ -58,7 +58,7 @@ function Home() {
       image: project1,
       details:
         "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
-      techStack: "React JS, Route, Redux, & API",
+      techStack: "React JS, Route, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
       source: "https://github.com/katarighe/capstone-metrics-webapp",
     },
@@ -166,11 +166,11 @@ function Home() {
                       className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                         <div className="flex h-full items-start justify-start">
                           <div className="m-6 text-white">
-                            <h5 className="mb-3 text-2xl font-bold font-robotoCondensed">{item.title}</h5>
+                            <h5 className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600">{item.title}</h5>
                             {techStackToArray(item.techStack).map((tech, index) => (
                               <span
                                 key={index}
-                                className="mr-2 my-1 border-2 badge border-newbBlue badge-outline text-newbBlue font-semibold font-robotoOriginal">
+                                className="mr-2 my-1 border-2 badge border-newbBlue badge-outline text-newbBlue font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-2 px-4 rounded-full">
                                 {tech}
                               </span>
                             ))}
@@ -179,7 +179,7 @@ function Home() {
                                 href={item.source}
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg">
+                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full">
                                 <CodeBracketIcon className="w-4" />
                                 Source Code
                               </a>
@@ -187,7 +187,7 @@ function Home() {
                                 href={item.live}
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg">
+                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full">
                                 <EyeIcon className="w-4" />
                                 Live Preview
                               </a>
