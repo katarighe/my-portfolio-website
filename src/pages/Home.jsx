@@ -20,7 +20,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 import Hero from "../components/Hero";
-import project1 from "../assets/background-project.png";
+import project1 from "../assets/background-project.jpg";
 
 function Home() {
   const skills = [
