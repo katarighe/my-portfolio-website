@@ -140,7 +140,7 @@ function Home() {
               About Me
             </h3>
             <p className="text-base font-robotoOriginal">
-              Dedicated full-stack developer and data analyst committed to
+              A dedicated full-stack developer and data analyst committed to
               ongoing skill development. I relish learning new languages and
               frameworks, and I apply a focused, mindful approach to deliver
               clean, well-tested code. I seek opportunities to leverage my
