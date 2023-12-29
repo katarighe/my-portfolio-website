@@ -1,15 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { FaReact, FaCss3, FaHtml5, FaChrome, FaGitAlt } from "react-icons/fa";
 import {
-  FaReact,
-  FaCss3,
-  FaHtml5,
-  FaChrome,
-  FaGitAlt,
-} from "react-icons/fa";
-import {  
-  SiDaisyui, 
+  SiDaisyui,
   SiJavascript,
   SiNodedotjs,
   SiFigma,
@@ -25,21 +19,21 @@ import {
 } from "@heroicons/react/24/outline";
 
 import Hero from "../components/Hero";
-import project1 from '../assets/mai-logo2.png'
+import project1 from "../assets/mai-logo2.png";
 
 function Home() {
   const skills = [
-    { name: 'HTML', icon: <FaHtml5 />, color: 'text-[#E44D26]' },
-    { name: 'CSS', icon: <FaCss3 />, color: 'text-blue-600' },
-    { name: 'JavaScript', icon: <SiJavascript />, color: 'text-yellow-400' },
-    { name: 'ReactJS', icon: <FaReact />, color: 'text-{#00D8FF}' },
-    { name: 'NodeJS', icon: <SiNodedotjs />, color: 'text-[#539E43]' },
-    { name: 'Figma ', icon: <SiFigma />, color: 'text-red-500' },
-    { name: 'Chrome', icon: <FaChrome />, color: 'text-yellow-500' },
-    { name: 'VS Code', icon: <TbBrandVscode />, color: 'text-blue-500' },
-    { name: 'Git', icon: <FaGitAlt />, color: 'text-[#DE4C36]' },
-    { name: 'NPM', icon: <SiNpm />, color: 'text-[#C12127]' },
-  ]
+    { name: "HTML", icon: <FaHtml5 />, color: "text-[#E44D26]" },
+    { name: "CSS", icon: <FaCss3 />, color: "text-blue-600" },
+    { name: "JavaScript", icon: <SiJavascript />, color: "text-yellow-400" },
+    { name: "ReactJS", icon: <FaReact />, color: "text-{#00D8FF}" },
+    { name: "NodeJS", icon: <SiNodedotjs />, color: "text-[#539E43]" },
+    { name: "Figma ", icon: <SiFigma />, color: "text-red-500" },
+    { name: "Chrome", icon: <FaChrome />, color: "text-yellow-500" },
+    { name: "VS Code", icon: <TbBrandVscode />, color: "text-blue-500" },
+    { name: "Git", icon: <FaGitAlt />, color: "text-[#DE4C36]" },
+    { name: "NPM", icon: <SiNpm />, color: "text-[#C12127]" },
+  ];
 
   const [projects, setProjects] = useState([
     {
@@ -128,30 +122,54 @@ function Home() {
 
   return (
     <>
-      <Hero name="Mohamed Aden Ighe" details="FULL STACK WEB DEVELOPER / DATA ANALYST" backgroundImage="src/assets/coding-background.jpg"/>
+      <Hero
+        name="Mohamed Aden Ighe"
+        details="FULL STACK WEB DEVELOPER / DATA ANALYST"
+        backgroundImage="src/assets/coding-background.jpg"
+      />
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto">
-          <img src="src/assets/mai-profile.jpg" alt="About Me" className="mr-4 max-w-[20rem] max-h-[20rem] mx-auto flex items-center" />
-            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">About Me</h3>
-            <p className="text-base font-robotoOriginal">Dedicated full-stack developer and data analyst committed to ongoing skill development. I relish learning new languages and frameworks, and I apply a focused, mindful approach to deliver clean, well-tested code. I seek opportunities to leverage my expertise in impactful projects that make a difference through thoughtful web development.</p>
+            <img
+              src="src/assets/mai-profile.jpg"
+              alt="About Me"
+              className="mr-4 max-w-[20rem] max-h-[20rem] mx-auto flex items-center"
+            />
+            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
+              About Me
+            </h3>
+            <p className="text-base font-robotoOriginal">
+              Dedicated full-stack developer and data analyst committed to
+              ongoing skill development. I relish learning new languages and
+              frameworks, and I apply a focused, mindful approach to deliver
+              clean, well-tested code. I seek opportunities to leverage my
+              expertise in impactful projects that make a difference through
+              thoughtful web development.
+            </p>
           </article>
           <article className="max-w-[35rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">My Skills</h3>
+            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
+              My Skills
+            </h3>
             <ul className="flex flex-wrap gap-5 justify-start items-center text-white">
               {skills.map((tool, index) => (
                 <li
-                  key={index} 
-                  className={`flex flex-row flex-grow items-start gap-2`}>
+                  key={index}
+                  className={`flex flex-row flex-grow items-start gap-2`}
+                >
                   <span className={`text-xl ${tool.color}`}>{tool.icon}</span>
-                  <p className="font-semibold text-base text-black font-robotoOriginal">{tool.name}</p>
+                  <p className="font-semibold text-base text-black font-robotoOriginal">
+                    {tool.name}
+                  </p>
                 </li>
               ))}
             </ul>
           </article>
         </div>
         <article className="max-w-[35rem] mx-auto">
-        <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">My Projects</h3>
+          <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
+            My Projects
+          </h3>
         </article>
         <div className="container py-5 md:py-16">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -162,39 +180,43 @@ function Home() {
                   {/* <a onClick={() => openModal(index)}>
                     <div className="mask absolute inset-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]" />
                   </a> */}
-                    <div
-                      className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
-                        <div className="flex h-full items-start justify-start">
-                          <div className="m-6 text-white">
-                            <h5 className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600">{item.title}</h5>
-                            {techStackToArray(item.techStack).map((tech, index) => (
-                              <span
-                                key={index}
-                                className="mr-2 my-1 border-2 badge border-newbBlue badge-outline text-newbBlue font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full">
-                                {tech}
-                              </span>
-                            ))}
-                            <div className="mt-4 flex justify-start gap-5 self-end text-sm ">
-                              <a
-                                href={item.source}
-                                rel="noreferrer"
-                                target="_blank"
-                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full">
-                                <CodeBracketIcon className="w-4" />
-                                Source Code
-                              </a>
-                              <a
-                                href={item.live}
-                                rel="noreferrer"
-                                target="_blank"
-                                className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full">
-                                <EyeIcon className="w-4" />
-                                Live Preview
-                              </a>
-                            </div>
-                          </div>
+                  <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
+                    <div className="flex h-full items-start justify-start">
+                      <div className="m-6 text-white">
+                        <h5 className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600">
+                          {item.title}
+                        </h5>
+                        {techStackToArray(item.techStack).map((tech, index) => (
+                          <span
+                            key={index}
+                            className="mr-2 my-1 border-2 badge border-newbBlue badge-outline text-newbBlue font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                        <div className="mt-4 flex justify-start gap-5 self-end text-sm ">
+                          <a
+                            href={item.source}
+                            rel="noreferrer"
+                            target="_blank"
+                            className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                          >
+                            <CodeBracketIcon className="w-4" />
+                            Source Code
+                          </a>
+                          <a
+                            href={item.live}
+                            rel="noreferrer"
+                            target="_blank"
+                            className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                          >
+                            <EyeIcon className="w-4" />
+                            Live Preview
+                          </a>
                         </div>
                       </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
@@ -202,21 +224,32 @@ function Home() {
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/my-projects"
-              className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300">
+              className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300"
+            >
               <IoIosAdd className="text-2xl" />
-                MORE PROJECTS
+              MORE PROJECTS
             </Link>
             <Link
               to="/contact"
-              className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300">
+              className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300"
+            >
               <IoIosChatboxes className="text-2xl" />
-                CONTACT ME
+              CONTACT ME
             </Link>
+            <a
+              href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
+              className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoIosChatboxes className="text-2xl" />
+              MY RESUME
+            </a>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }
 
 export default Home;
