@@ -24,7 +24,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 import Hero from "../components/Hero";
-import project1 from '../assets/project1.png'
+import project1 from '../assets/mai-logo.png'
 
 function Home() {
   const skills = [
@@ -200,7 +200,7 @@ function Home() {
           </div>
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
-              to="/project"
+              to="/my-projects"
               className="p-3 px-10 text-black bg-[#54d4ca] text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoOriginal hover:scale-110 transition-transform duration-300">
               <IoIosArrowRoundForward className="text-2xl" />
                 MORE PROJECTS
