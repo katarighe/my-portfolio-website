@@ -145,7 +145,7 @@ function Home() {
               About Me
             </h3>
             <p className="text-base font-robotoOriginal">
-              I am a software developer and full-stack engineer with the
+              I am a full-stack web developer with the
               expertise to assist you in building projects, features, or
               websites. Take a glance at my portfolio and explore my
               professional experience. If you find something you like, or if you
