@@ -48,7 +48,7 @@ function Home() {
       details:
         "A frontend/backend application that allows users to book appointments with doctors. Access to the application requires users to sign up or sign in, which can be done through the provided forms.",
       techStack: "Ruby, Rails, ReactJS, PostgreSQL, Bootstrap, & API",
-      live: "https://leaderboard-5318etbmg-ticoniq.vercel.app",
+      live: "https://book-doctor-appointment-frontend.netlify.app/",
       source: "https://github.com/katarighe/book-appointment-back-end",
     },
     {
