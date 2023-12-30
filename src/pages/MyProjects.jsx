@@ -138,7 +138,7 @@ function MyProjects() {
         <p className="text-newDarkGray text-lg font-robotoOriginal">
           As of 1 January 2024, my portfolio showcases over 15 projects developed using
           robust technology stacks, including HTML5/CSS3, JavaScript,
-          React/Redux, Ruby, and Ruby on Rails.
+          React/Redux, API, Ruby, and Ruby on Rails.
         </p>
       </div>
       <section>
