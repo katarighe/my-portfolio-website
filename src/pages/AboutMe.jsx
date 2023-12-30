@@ -147,7 +147,7 @@ function AboutMe() {
             className="flex flex- justify-center items-start gap-0 mb-10 md:gap-3">
             <button
               className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white ${
-                activeTab === 'all' ? 'bg-newGreen text-black hover:bg-newGreen' : 'hover:text-violet-500 hover:bg-newYellow'
+                activeTab === 'all' ? 'bg-green-500 text-black  hover:bg-green-500' : 'hover:text-black hover:bg-green-500'
               }`}
               onClick={() => handleTabChange('all')}
             >
@@ -155,7 +155,7 @@ function AboutMe() {
             </button>
             <button
               className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
-                activeTab === 'frontend' ? 'bg-newGreen text-black hover:bg-newGreen' : 'hover:text-violet-500 hover:bg-newYellow'
+                activeTab === 'frontend' ? 'bg-green-500 text-black  hover:bg-green-500' : 'hover:text-black hover:bg-green-500'
               }`}
               onClick={() => handleTabChange('frontend')}
             >
@@ -163,15 +163,15 @@ function AboutMe() {
             </button>
             <button
               className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
-                activeTab === 'backend' ? 'bg-newGreen text-black hover:bg-newGreen' : 'hover:text-violet-500 hover:bg-newYellow'
+                activeTab === 'backend' ? 'bg-green-500 text-black  hover:bg-green-500' : 'hover:text-black  hover:bg-green-500'
               }`}
               onClick={() => handleTabChange('backend')}
             >
               Backend
             </button>
             <button
-              className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white hover:bg-newYellow ${
-                activeTab === 'tools' ? 'bg-newGreen text-black hover:bg-newGreen' : 'hover:text-violet-500'
+              className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white hover:bg-green-500 ${
+                activeTab === 'tools' ? 'bg-green-500 text-black hover:bg-green-500' : 'hover:text-black'
               }`}
               onClick={() => handleTabChange('tools')}
             >
@@ -180,7 +180,7 @@ function AboutMe() {
           </motion.div>
           <article className="grid grid-cols-1 gap-12">
           {activeTab === 'all' && (
-              <div className="grid flex-grow place-items-center py-10">
+              <div className="grid flex-grow place-items-center py-10 font-robotoOriginal">
                 <ul className="flex flex-wrap gap-5 mb-0 justify-center items-center text-white">
                   {frontendTools.map((tool, index) => (
                     <motion.li 
@@ -231,7 +231,7 @@ function AboutMe() {
               </div>
             )}
             {activeTab === 'frontend' && (
-              <div className="grid flex-grow place-items-center py-10">
+              <div className="grid flex-grow place-items-center py-10 font-robotoOriginal">
                 <ul className="flex flex-wrap gap-5 mb-0 justify-center items-center text-white">
                   {frontendTools.map((tool, index) => (
                     <motion.li 
@@ -252,7 +252,7 @@ function AboutMe() {
               </div>
             )}
             {activeTab === 'backend' && (
-            <div className="grid flex-grow place-items-center py-10">
+            <div className="grid flex-grow place-items-center py-10 font-robotoOriginal">
               <ul className="flex flex-wrap gap-5 mb-0 justify-center items-center text-white">
                 {backendDatabases.map((database, index) => (
                   <motion.li 
@@ -273,7 +273,7 @@ function AboutMe() {
             </div>
             )}
             {activeTab === 'tools' && (
-              <div className="grid flex-grow place-items-center py-10">
+              <div className="grid flex-grow place-items-center py-10 font-robotoOriginal">
                 <ul className="flex flex-wrap gap-5 mb-0 justify-center items-center text-white">
                   {SkillTools.map((tool, index) => (
                     <motion.li 
