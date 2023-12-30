@@ -109,6 +109,22 @@ function MyProjects() {
     );
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === "ArrowLeft") {
+      prevProject();
+    } else if (e.key === "ArrowRight") {
+      nextProject();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyPress);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+    };
+  }, []);
+
   const selectedProject = sortedProjects[selectedProjectIndex];
 
   return (

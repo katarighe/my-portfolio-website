@@ -124,6 +124,22 @@ function Home() {
     );
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === "ArrowLeft") {
+      prevProject();
+    } else if (e.key === "ArrowRight") {
+      nextProject();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyPress);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+    };
+  }, []);
+
   const selectedProject = sortedProjects[selectedProjectIndex];
 
   return (
@@ -145,12 +161,11 @@ function Home() {
               About Me
             </h3>
             <p className="text-base font-robotoOriginal">
-              I am a full-stack web developer with the
-              expertise to assist you in building projects, features, or
-              websites. Take a glance at my portfolio and explore my
-              professional experience. If you find something you like, or if you
-              have a specific project that requires coding, feel free to reach
-              out to me.
+              I am a full-stack web developer with the expertise to assist you
+              in building projects, features, or websites. Take a glance at my
+              portfolio and explore my professional experience. If you find
+              something you like, or if you have a specific project that
+              requires coding, feel free to reach out to me.
             </p>
           </article>
           <article className="max-w-[35rem] mx-auto">
