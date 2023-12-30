@@ -193,14 +193,14 @@ function Home() {
               ))}
             </ul>
             <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
-            <Link
-              to="/my-projects"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
-            >
-              <IoIosAdd className="text-2xl" />
-              SEE MORE
-            </Link>
-          </div>
+              <Link
+                to="#"
+                className="p-2 px-6 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-base flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              >
+                <IoIosAdd className="text-xl" />
+                SEE MORE
+              </Link>
+            </div>
           </article>
         </div>
         <article className="max-w-[35rem] mx-auto">
