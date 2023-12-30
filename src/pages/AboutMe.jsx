@@ -100,7 +100,7 @@ function AboutMe() {
       <Hero
         name="ABOUT ME"
         details="IT’S A-ME, MARIO!"
-        backgroundImage="src/assets/my-projects-background.jpg"
+        backgroundImage="src/assets/about-me-background.png"
       />
       <section className="text-black">
         <div className="container space-y-10 py-16">
