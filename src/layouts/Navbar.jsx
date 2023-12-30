@@ -110,8 +110,8 @@ function Navbar() {
                   ))}
                 </ul>
                 <aside className="space-y-2 flex flex-col text-2xl font-semibold relative self-start md:self-end font-robotoOriginal">
-                  <a href="mailto: m.ighe@hotmail.com" className="hover:scale-110 transition-transform duration-300">m.ighe@hotmail.com</a>
-                  <a href="https://api.whatsapp.com/send?phone=16473739841" className="hover:scale-110 transition-transform duration-300">+1 (647) 373 9841</a>
+                  <a href="mailto: m.ighe@hotmail.com" className="hover:scale-110 transition-transform duration-300">📫 m.ighe@hotmail.com</a>
+                  <a href="https://api.whatsapp.com/send?phone=16473739841" className="hover:scale-110 transition-transform duration-300">📞 +1 (647) 373 9841</a>
                   <span className="flex gap-3 text-2xl">
                     <a href="http://facebook.com/katarighe" className="hover:scale-110 transition-transform duration-300"><BiLogoFacebook /></a>
                     <a href="http://instagram.com/m.ighe" className="hover:scale-110 transition-transform duration-300"><BiLogoInstagram /></a>

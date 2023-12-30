@@ -1,54 +1,16 @@
-/* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
+import Hero from "../components/Hero";
+import project1 from "../assets/background-project.jpg";
 import { Link } from "react-router-dom";
-import { FaReact, FaCss3, FaHtml5, FaChrome, FaGitAlt } from "react-icons/fa";
-import {
-  SiJavascript,
-  SiNodedotjs,
-  SiPostgresql,
-  SiGithub,
-  SiReact,
-  SiRedux,
-  SiRuby,
-  SiTailwindcss,
-  SiBootstrap,
-  SiJquery,
-  SiAngular,
-} from "react-icons/si";
 import { IoIosChatboxes } from "react-icons/io";
-import { IoIosAdd } from "react-icons/io";
-import { IoIosPaper } from "react-icons/io";
-import { TbBrandVscode } from "react-icons/tb";
 import {
   EyeIcon,
   CodeBracketIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
-import Hero from "../components/Hero";
-import project1 from "../assets/background-project.jpg";
-
-function Home() {
-  const skills = [
-    { name: "HTML", icon: <FaHtml5 />, color: "text-[#E44D26]" },
-    { name: "CSS", icon: <FaCss3 />, color: "text-blue-600" },
-    { name: "JavaScript", icon: <SiJavascript />, color: "text-yellow-400" },
-    { name: "React", icon: <SiReact />, color: "text-red-400" },
-    { name: "Redux", icon: <SiRedux />, color: "text-red-400" },
-    { name: "Ruby", icon: <SiRuby />, color: "text-red-400" },
-    { name: "NodeJS", icon: <SiNodedotjs />, color: "text-[#539E43]" },
-    { name: "PostgreSQL ", icon: <SiPostgresql />, color: "text-blue-500" },
-    { name: "Chrome", icon: <FaChrome />, color: "text-yellow-500" },
-    { name: "VS Code", icon: <TbBrandVscode />, color: "text-blue-500" },
-    { name: "Git", icon: <FaGitAlt />, color: "text-[#DE4C36]" },
-    { name: "GitHub", icon: <SiGithub />, color: "text-black" },
-    { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "text-blue-400" },
-    { name: "Bootstrap", icon: <SiBootstrap />, color: "text-purple-600" },
-    { name: "jQuery", icon: <SiJquery />, color: "text-blue-400" },
-    { name: "Angular", icon: <SiAngular />, color: "text-red-600" },
-  ];
-
-  const [projects, setProjects] = useState([
+function MyProjects() {
+  const [projects] = useState([
     {
       id: 1,
       title: "Book A Doctor",
@@ -65,7 +27,7 @@ function Home() {
       image: project1,
       details:
         "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
-      techStack: "ReactJS, Route, Redux, API",
+      techStack: "React JS, Route, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
       source: "https://github.com/katarighe/capstone-metrics-webapp",
     },
@@ -75,27 +37,43 @@ function Home() {
       image: project1,
       details:
         "A budget app named SmartPocket Budget keeps track of all your expenses associated with categories.",
-      techStack: "ReactJS, Redux, Route, Tailwind CSS, DaisyUI, API",
+      techStack: "ReactJS, Redux, Route, CSS, API",
       live: "https://moyen-budget.onrender.com/",
       source: "https://github.com/katarighe/budget-app",
+    },
+    {
+      id: 4,
+      title: "Bookstore CMS",
+      image: project1,
+      details:
+        "The Bookstore CMS React App is a single-page application that allows users to browse and purchase books. It is built using the React JavaScript library and features a navbar and footer that provide navigation throughout the app.",
+      techStack: "ReactJS, Redux, JavaScript, API",
+      live: "https://brilliant-vacherin-c698ee.netlify.app/",
+      source: "https://github.com/katarighe/bookstore",
+    },
+    {
+      id: 5,
+      title: "Capstone MealDB",
+      image: project1,
+      details:
+        "This Capstone Project is built on MealDB, an external API, and an Involvement API which is used to record the user interactions including likes, and comments. The external API service used is called MealAPI. MealDB is a crowd-sourced database of recipes from around the world. It was created in 2008 by two developers in the UK, and it has since grown to include over 29,000 recipes from over 100 countries.",
+      techStack: "HTML5, CSS3, JavaScript, API",
+      live: "https://astonishing-mermaid-7b5d60.netlify.app/dist/",
+      source: "https://github.com/katarighe/Capstone-Meal-DB",
+    },
+    {
+      id: 6,
+      title: "LaxAct Streaming Conference 2023",
+      image: project1,
+      details:
+        "A website that announced for the TV streaming conference organized by laxACT Ltd, which as held on July 2023 at Crest Towers, Diego Garcia, BIOT.",
+      techStack: "HTML, CSS, JavaScript, Bootstrap",
+      live: "https://katarighe.github.io/microverse-capstone-project-1/",
+      source: "https://github.com/ticoniq/bookstore",
     },
   ]);
 
   const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
-
-  const fadeInAnimationVarients = {
-    initial: {
-      opacity: 0,
-      y: 100,
-    },
-    animate: (index) => ({
-      opacity: 1,
-      y: 0,
-      transition: {
-        delay: 0.01 * index,
-      },
-    }),
-  };
 
   const techStackToArray = (techStack) => {
     return techStack ? techStack.split(", ") : [];
@@ -153,72 +131,31 @@ function Home() {
   return (
     <>
       <Hero
-        name="Mohamed Aden Ighe"
-        details="FULL STACK WEB DEVELOPER & DATA ANALYST"
-        backgroundImage="src/assets/coding-background.jpg"
+        name="My Projects"
+        details="Crafted with Care"
+        backgroundImage="src/assets/my-projects-background.jpg"
       />
-      <section className="text-black">
-        <div className="container space-y-10 py-16">
-          <article className="max-w-[35rem] mx-auto">
-            <img
-              src="src/assets/mai-profile.jpg"
-              alt="About Me"
-              className="mr-4 max-w-[20rem] max-h-[20rem] mx-auto flex items-center"
-            />
-            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
-              About Me
-            </h3>
-            <p className="text-base font-robotoOriginal">
-              I am a full-stack web developer with the expertise to assist you
-              in building projects, features, or websites. Take a glance at my
-              portfolio and explore my professional experience. If you find
-              something you like, or if you have a specific project that
-              requires coding, feel free to reach out to me.
-            </p>
-          </article>
-          <article className="max-w-[35rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
-              My Skills
-            </h3>
-            <ul className="flex flex-wrap gap-5 justify-start items-center text-white">
-              {skills.map((tool, index) => (
-                <li
-                  key={index}
-                  className={`flex flex-row flex-grow items-start gap-2`}
-                >
-                  <span className={`text-xl ${tool.color}`}>{tool.icon}</span>
-                  <p className="font-semibold text-base text-black font-robotoOriginal">
-                    {tool.name}
-                  </p>
-                </li>
-              ))}
-            </ul>
-            <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
-              <Link
-                to="#"
-                className="p-2 px-6 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-base flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
-              >
-                <IoIosAdd className="text-xl" />
-                SEE MORE
-              </Link>
-            </div>
-          </article>
-        </div>
-        <article className="max-w-[35rem] mx-auto">
-          <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
-            My Projects
-          </h3>
-        </article>
-        <div className="container py-5 md:py-16">
+      <div className="flex flex-col justify-center items-center px-10 gap-10 mt-10 md:flex-row">
+        <p className="text-newDarkGray text-lg font-robotoOriginal">
+          As of 1 January 2024, my portfolio showcases over 15 projects
+          developed using robust technology stacks, including HTML5/CSS3,
+          JavaScript, React/Redux, API, Ruby, and Ruby on Rails.
+        </p>
+      </div>
+      <section>
+        <div className="container py-10 md:py-15">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
               <div className="" key={item.id} onClick={() => openModal(index)}>
-                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-black shadow-lg">
+                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-black shadow-lg ">
                   <img src={item.image} alt={item.title} className="w-full" />
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
                       <div className="m-6 text-white">
-                        <h5 className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600">
+                        <h5
+                          className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600"
+                          onClick={() => openModal(index)}
+                        >
                           {item.title}
                         </h5>
                         {techStackToArray(item.techStack).map((tech, index) => (
@@ -229,7 +166,7 @@ function Home() {
                             {tech}
                           </span>
                         ))}
-                        <div className="mt-4 flex justify-start gap-5 self-end text-sm ">
+                        <div className="mt-4 flex justify-start gap-5 self-end text-sm">
                           <a
                             href={item.source}
                             rel="noreferrer"
@@ -333,29 +270,21 @@ function Home() {
             </div>
           )}
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
-            <Link
-              to="/my-projects"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
-            >
-              <IoIosAdd className="text-2xl" />
-              MORE PROJECTS
-            </Link>
+            <p className="text-newDarkGray text-lg font-robotoOriginal">
+              I can assist you in building a product, feature, or website. Take
+              a look at some of my recent projects!
+            </p>
+            <p className="text-newDarkGray text-lg font-robotoOriginal">
+              If you appreciate what you see and have a project that needs
+              coding, feel free to contact me. 📝
+            </p>
             <Link
               to="/contact"
               className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosChatboxes className="text-2xl" />
-              CONTACT ME
+              Contact
             </Link>
-            <a
-              href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IoIosPaper className="text-2xl" />
-              RESUME / CV
-            </a>
           </div>
         </div>
       </section>
@@ -363,4 +292,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default MyProjects;
