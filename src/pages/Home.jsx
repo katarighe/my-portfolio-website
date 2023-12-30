@@ -3,14 +3,17 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaReact, FaCss3, FaHtml5, FaChrome, FaGitAlt } from "react-icons/fa";
 import {
-  SiDaisyui,
   SiJavascript,
   SiNodedotjs,
-  SiFigma,
-  SiNpm,
+  SiPostgresql,
+  SiGithub,
   SiReact,
   SiRedux,
   SiRuby,
+  SiTailwindcss,
+  SiBootstrap,
+  SiJquery,
+  SiAngular,
 } from "react-icons/si";
 import { IoIosChatboxes } from "react-icons/io";
 import { IoIosAdd } from "react-icons/io";
@@ -34,11 +37,15 @@ function Home() {
     { name: "Redux", icon: <SiRedux />, color: "text-red-400" },
     { name: "Ruby", icon: <SiRuby />, color: "text-red-400" },
     { name: "NodeJS", icon: <SiNodedotjs />, color: "text-[#539E43]" },
-    { name: "Figma ", icon: <SiFigma />, color: "text-red-500" },
+    { name: "PostgreSQL ", icon: <SiPostgresql />, color: "text-blue-500" },
     { name: "Chrome", icon: <FaChrome />, color: "text-yellow-500" },
     { name: "VS Code", icon: <TbBrandVscode />, color: "text-blue-500" },
     { name: "Git", icon: <FaGitAlt />, color: "text-[#DE4C36]" },
-    { name: "NPM", icon: <SiNpm />, color: "text-[#C12127]" },
+    { name: "GitHub", icon: <SiGithub />, color: "text-black" },
+    { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "text-blue-400" },
+    { name: "Bootstrap", icon: <SiBootstrap />, color: "text-purple-600" },
+    { name: "jQuery", icon: <SiJquery />, color: "text-blue-400" },
+    { name: "Angular", icon: <SiAngular />, color: "text-red-600" },
   ];
 
   const [projects, setProjects] = useState([
