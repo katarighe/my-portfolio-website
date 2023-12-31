@@ -320,7 +320,7 @@ function AboutMe() {
           </article>
           <article className="max-w-[45rem] mx-auto">
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
-              Connect with me
+              Connect
             </h3>
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
