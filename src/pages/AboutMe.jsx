@@ -27,6 +27,8 @@ import {
     SiPostgresql,
     SiTailwindcss,
     SiBootstrap,
+    SiGooglechrome,
+    SiPython,
   } from "react-icons/si";  
 import Hero from "../components/Hero";
 
@@ -60,6 +62,7 @@ function AboutMe() {
             { name: 'MongoDB', icon: <SiMongodb /> },
             { name: 'MySQL', icon: <SiMysql /> , color: 'bg-orange-400' },
             { name: 'PostgreSQL', icon: <SiPostgresql /> , color: 'bg-blue-900' },
+            { name: 'Python', icon: <SiPython /> , color: 'bg-blue-500' },
           ],
         },
         tools: [
@@ -68,6 +71,7 @@ function AboutMe() {
           { name: 'vercel', icon: <SiVercel />, color: 'bg-gray-950' },
           { name: 'DevTools', icon: <PiDevToLogo />, color: 'bg-blue-500' },
           { name: 'Jest', icon: <SiJest />, color: 'bg-red-600' },
+          { name: 'Chrome', icon: <SiGooglechrome />, color: 'bg-red-600' },
         ],
       };
     
