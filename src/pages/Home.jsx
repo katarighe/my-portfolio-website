@@ -169,23 +169,26 @@ function Home() {
               About Me
             </h3>
             <p className="text-base font-robotoOriginal">
-              I am a full-stack web developer and data analyst with
-              over 3 years of hands-on experience in various roles. I possess
-              the expertise to assist you in building projects, features, or
-              websites. Feel free to explore my portfolio to gain insights into
-              my professional journey. <br />
+              I am a full-stack web developer and data analyst with over 3 years
+              of hands-on experience in diverse roles. I have the expertise to
+              support you in constructing projects, implementing features, or
+              developing websites, as well as assisting startups in bringing
+              their products from concept to launch. Please feel free to explore
+              my portfolio for a deeper understanding of my professional
+              journey. <br />
               <br />
               If you come across something you like or have a specific project
-              that requires coding, don't hesitate to reach out to me. I would
+              that requires attention, don't hesitate to reach out to me. I would
               be delighted to contribute to your software needs. <br />
               <br />
               My background spans across various IT categories, with a focus on
-              coding and data, including HTML, CSS, JavaScript, React,
-              Ruby on Rails, Nodejs, MySQL, MongoDB, and PostgreSQL. I graduated
-              with a Bachelor of Science in Information Technology (BIT) degree
-              in August 2016 and earned a Master of Science in Computer Science (MCS)
-              degree in September 2020. This educational background equips me to smoothly
-              handle the development of diverse applications. <br />
+              coding and data, including HTML, CSS, JavaScript, React, Ruby on
+              Rails, Nodejs, MySQL, MongoDB, and PostgreSQL. I graduated with a
+              Bachelor of Science in Information Technology (BIT) degree in
+              August 2016 and earned a Master of Science in Computer Science
+              (MCS) degree in September 2020. This educational background equips
+              me to smoothly handle the development of diverse applications.{" "}
+              <br />
               <br />
               In February 2024, I achieved a significant milestone by earning a
               full-stack web development certificate from Microverse, a
