@@ -275,8 +275,8 @@ function MyProjects() {
               a look at some of my recent projects!
             </p>
             <p className="text-newDarkGray text-lg font-robotoOriginal">
-              If you appreciate what you see and have a project that needs
-              coding, feel free to contact me. 📝
+              If you appreciate what you see and have a project that requires
+              attention, feel free to contact me. 📝
             </p>
             <Link
               to="/contact"
