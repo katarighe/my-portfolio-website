@@ -110,7 +110,7 @@ function AboutMe() {
     <>
       <Hero
         name="ABOUT ME"
-        details="IT’S A-ME, MARIO!"
+        details="GREETINGS & WELCOME!"
         backgroundImage="src/assets/about-me-background.png"
       />
       <section className="text-black">
