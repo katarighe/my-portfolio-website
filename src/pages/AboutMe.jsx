@@ -396,13 +396,6 @@ function AboutMe() {
               Connect with me
             </h3>
             <br />
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Thank you for visiting! I'm excited to connect with you and
-              facilitate meaningful conversations. Whether you share my
-              enthusiasm for the field or simply seek engaging discussions, this
-              space is created for us to connect and exchange ideas.
-            </p>
-            <br />
             <p className="whitespace-break-spaces">
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
@@ -501,8 +494,11 @@ function AboutMe() {
               Please feel free to explore the diverse social media channels and
               other portals. Let's establish a community where ideas flow,
               knowledge grows, and connections flourish. I am excited to hear
-              from you and embark on this journey together! You can also contact
-              me directly by clicking the button below.👇
+              from you and embark on this journey together!
+            </p>
+            <br />
+            <p className="text-base whitespace-break-spaces font-robotoOriginal">
+              You can also contact me directly by clicking the button below.
             </p>
           </article>
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
