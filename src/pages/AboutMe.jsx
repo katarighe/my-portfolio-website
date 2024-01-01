@@ -166,7 +166,7 @@ function AboutMe() {
               bring professionalism and enthusiasm to the table, confident in my
               ability to make a significant contribution to your team. <br />
               <br />
-              If you're in search of a dedicated developer, let's connect!
+              If you're looking for a committed developer, let's get in touch!
             </p>
           </article>
           <article className="max-w-[45rem] mx-auto">
