@@ -30,6 +30,7 @@ import {
     SiGooglechrome,
     SiPython,
   } from "react-icons/si";  
+import { SocialIcon } from 'react-social-icons'
 import Hero from "../components/Hero";
 
 function AboutMe() {
@@ -331,6 +332,21 @@ function AboutMe() {
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua. At vero eos et accusam et justo duo
               dolores et ea rebum.
+            </p>
+            <br></br>
+            <p className='whitespace-break-spaces'>
+            <SocialIcon url="https://facebook.com/katarighe" />{" "}{" "}{" "}
+            <SocialIcon url="https://instagram.com/katarighe" />{" "}{" "}{" "}
+            <SocialIcon url="https://x.com/katarighe" />{" "}{" "}{" "}
+            <SocialIcon url="https://youtube.com/@katarighe" />{" "}{" "}{" "}
+            <SocialIcon url="https://linkedin.com/in/mighe" />{" "}{" "}{" "}
+            <SocialIcon url="https://github.com/katarighe" />{" "}{" "}{" "}
+            <SocialIcon url="https://www.reddit.com/user/Katarighe" />{" "}{" "}{" "}
+            <SocialIcon url="https://scholar.google.com/citations?user=p_BiBB0AAAAJ&hl=en" />{" "}{" "}{" "}
+            <SocialIcon url="https://api.whatsapp.com/send?phone=16473739841" />{" "}{" "}{" "}
+            <SocialIcon url="https://telegram.me/katarighe" />{" "}{" "}{" "}
+            <SocialIcon url="https://www.snapchat.com/add/m.ighe?share_id=VL1Yc5t5ObQ&locale=en-US" />{" "}{" "}{" "}
+            <SocialIcon url="https://line.me/ti/p/mH4XEel70b" />
             </p>
           </article>
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
