@@ -163,7 +163,7 @@ function Home() {
             <img
               src="src/assets/mai-profile.jpg"
               alt="About Me"
-              className="mr-4 max-w-[20rem] max-h-[20rem] mx-auto flex items-center"
+              className="mr-4 max-w-[20rem] max-h-[20rem] overflow-hidden position-relative object-right-top justify-end items-end md:float-right md:object"
             />
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
               About Me
