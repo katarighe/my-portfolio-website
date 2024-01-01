@@ -59,7 +59,7 @@ function AboutMe() {
     },
     backend: {
       tools: [
-        { name: "C#", icon: <SiCsharp />, color: "bg-blue-500"},
+        { name: "C#", icon: <SiCsharp />, color: "bg-blue-500" },
         { name: "PHP", icon: <FaPhp />, color: "bg-blue-600" },
         { name: "Ruby", icon: <SiRuby />, color: "bg-red-500" },
         { name: "Rails", icon: <SiRubyonrails />, color: "bg-red-400" },
@@ -69,7 +69,6 @@ function AboutMe() {
         { name: "PostgreSQL", icon: <SiPostgresql />, color: "bg-blue-900" },
         { name: "Laravel", icon: <FaLaravel />, color: "bg-red-400" },
         { name: "Node.js", icon: <SiNodedotjs />, color: "bg-purple-500" },
-
       ],
     },
     tools: [
@@ -109,8 +108,8 @@ function AboutMe() {
   return (
     <>
       <Hero
-        name="ABOUT ME"
-        details="GREETINGS & WELCOME!"
+        name="About Me"
+        details="Welcome to my portfolio!"
         backgroundImage="src/assets/about-me-background.png"
       />
       <section className="text-black">
@@ -447,48 +446,54 @@ function AboutMe() {
               />{" "}
             </p>
             <br />
-            <tr>
-              <td className="whitespace-break-spaces">
-                <ReactSocialMediaIcons
-                  className="hover:scale-110 transition-transform duration-400"
-                  borderColor="rgba(0,0,0,0.25)"
-                  icon="line"
-                  iconColor="rgba(255,255,255,1)"
-                  url="https://line.me/ti/p/mH4XEel70b"
-                  size="50"
-                />
-              </td>
-              <td className="whitespace-break-spaces">
-                <ReactSocialMediaIcons
-                  className="hover:scale-110 transition-transform duration-400"
-                  borderColor="rgba(0,0,0,0.25)"
-                  icon="messenger"
-                  iconColor="rgba(255,255,255,1)"
-                  url="https://msng.link/o?katarighe=fm"
-                  size="50"
-                />
-              </td>
-              <td className="whitespace-break-spaces">
-                <ReactSocialMediaIcons
-                  className="hover:scale-110 transition-transform duration-400"
-                  borderColor="rgba(0,0,0,0.25)"
-                  icon="skype"
-                  iconColor="rgba(255,255,255,1)"
-                  url="live:m.ighe"
-                  size="50"
-                />
-              </td>
-              <td className="whitespace-break-spaces">
-                <ReactSocialMediaIcons
-                  className="hover:scale-110 transition-transform duration-400"
-                  borderColor="rgba(0,0,0,0.25)"
-                  icon="angellist"
-                  iconColor="rgba(255,255,255,1)"
-                  url="https://wellfound.com/u/katarighe"
-                  size="50"
-                />
-              </td>
-            </tr>
+            <div>
+              <table>
+                <tbody>
+                  <tr>
+                    <td className="whitespace-break-spaces">
+                      <ReactSocialMediaIcons
+                        className="hover:scale-110 transition-transform duration-400"
+                        borderColor="rgba(0,0,0,0.25)"
+                        icon="line"
+                        iconColor="rgba(255,255,255,1)"
+                        url="https://line.me/ti/p/mH4XEel70b"
+                        size="50"
+                      />
+                    </td>
+                    <td className="whitespace-break-spaces">
+                      <ReactSocialMediaIcons
+                        className="hover:scale-110 transition-transform duration-400"
+                        borderColor="rgba(0,0,0,0.25)"
+                        icon="messenger"
+                        iconColor="rgba(255,255,255,1)"
+                        url="https://msng.link/o?katarighe=fm"
+                        size="50"
+                      />
+                    </td>
+                    <td className="whitespace-break-spaces">
+                      <ReactSocialMediaIcons
+                        className="hover:scale-110 transition-transform duration-400"
+                        borderColor="rgba(0,0,0,0.25)"
+                        icon="skype"
+                        iconColor="rgba(255,255,255,1)"
+                        url="live:m.ighe"
+                        size="50"
+                      />
+                    </td>
+                    <td className="whitespace-break-spaces">
+                      <ReactSocialMediaIcons
+                        className="hover:scale-110 transition-transform duration-400"
+                        borderColor="rgba(0,0,0,0.25)"
+                        icon="angellist"
+                        iconColor="rgba(255,255,255,1)"
+                        url="https://wellfound.com/u/katarighe"
+                        size="50"
+                      />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
               Please feel free to explore the diverse social media channels and

@@ -154,7 +154,7 @@ function Home() {
     <>
       <Hero
         name="Mohamed Aden Ighe"
-        details="FULL STACK WEB DEVELOPER & DATA ANALYST"
+        details="Full Stack Web Developer & Data Analyst"
         backgroundImage="src/assets/coding-background.jpg"
       />
       <section className="text-black">
