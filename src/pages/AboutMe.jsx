@@ -18,7 +18,6 @@ import {
   SiRedux,
   SiMysql,
   SiVercel,
-  SiDaisyui,
   SiWebpack,
   SiNodedotjs,
   SiRuby,
@@ -29,6 +28,7 @@ import {
   SiBootstrap,
   SiGooglechrome,
   SiPython,
+  SiCsharp,
 } from "react-icons/si";
 import { SocialIcon } from "react-social-icons";
 import { ReactSocialMediaIcons } from "react-social-media-icons";
@@ -52,23 +52,24 @@ function AboutMe() {
         { name: "HTML5", icon: <FaHtml5 />, color: "bg-orange-500" },
         { name: "CSS3", icon: <FaCss3 />, color: "bg-blue-600" },
         { name: "Redux", icon: <SiRedux />, color: "bg-purple-500" },
-        { name: "Tailwind", icon: <SiTailwindcss />, color: "bg-teal-500" },
+        { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "bg-teal-500" },
         { name: "Bootstrap", icon: <SiBootstrap />, color: "bg-purple-900" },
         { name: "Webpack", icon: <SiWebpack />, color: "bg-blue-500" },
-        { name: "DaisyUI", icon: <SiDaisyui />, color: "bg-teal-600" },
       ],
     },
     backend: {
       tools: [
-        { name: "Node.js", icon: <SiNodedotjs />, color: "bg-purple-500" },
+        { name: "C#", icon: <SiCsharp />, color: "bg-blue-500"},
         { name: "PHP", icon: <FaPhp />, color: "bg-blue-600" },
         { name: "Ruby", icon: <SiRuby />, color: "bg-red-500" },
-        { name: "Laravel", icon: <FaLaravel />, color: "bg-red-400" },
-        { name: "Ruby on Rails", icon: <SiRubyonrails />, color: "bg-red-400" },
+        { name: "Rails", icon: <SiRubyonrails />, color: "bg-red-400" },
+        { name: "Python", icon: <SiPython />, color: "bg-blue-500" },
         { name: "MongoDB", icon: <SiMongodb />, color: "bg-red-400" },
         { name: "MySQL", icon: <SiMysql />, color: "bg-orange-400" },
         { name: "PostgreSQL", icon: <SiPostgresql />, color: "bg-blue-900" },
-        { name: "Python", icon: <SiPython />, color: "bg-blue-500" },
+        { name: "Laravel", icon: <FaLaravel />, color: "bg-red-400" },
+        { name: "Node.js", icon: <SiNodedotjs />, color: "bg-purple-500" },
+
       ],
     },
     tools: [
@@ -359,7 +360,7 @@ function AboutMe() {
                         <span className="text-4xl md:text-6xl">
                           {tool.icon}
                         </span>
-                        <p className="font-semibold text-sm">{tool.name}</p>
+                        <p className="font-semibold text-lg">{tool.name}</p>
                       </motion.li>
                     ))}
                   </ul>
