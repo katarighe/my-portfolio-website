@@ -4,14 +4,6 @@ import { Dialog } from "@headlessui/react";
 import { 
   BiMenuAltRight, 
   BiX,
-  BiLogoFacebook,
-  BiLogoLinkedin,
-  BiLogoInstagram,
-  BiLogoTwitter,
-  BiLogoGithub,
-  BiLogoYoutube,
-  BiLogoGoogle,
-  BiBook
 } from "react-icons/bi";
 import logo from '../assets/mai-logo.png';
 
@@ -102,7 +94,7 @@ function Navbar() {
                       <Link
                         to={item.href}
                         onClick={() => setMobileMenuOpen(false)}
-                        className="uppercase text-4xl flex-gap-10 font-robotoCondensed font-bold text-black md:text-6xl hover:scale-110 transition-transform duration-300">
+                        className="uppercase text-6xl flex-gap-10 font-robotoCondensed font-bold text-black md:text-6xl hover:scale-110 transition-transform duration-300">
                         {item.name}
                       </Link>
                     </li>
