@@ -31,6 +31,7 @@ import {
   SiPython,
 } from "react-icons/si";
 import { SocialIcon } from "react-social-icons";
+import { ReactSocialMediaIcons } from "react-social-media-icons";
 import Hero from "../components/Hero";
 
 function AboutMe() {
@@ -124,7 +125,8 @@ function AboutMe() {
             />
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Greetings, I'm Mohamed<br />
+              Greetings, I'm Mohamed
+              <br />
               <br />
               As a full-stack developer with expertise in front-end and back-end
               skills, I thrive on building and deploying applications. My recent
@@ -392,13 +394,14 @@ function AboutMe() {
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
               Connect with me
             </h3>
+            <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
               Thank you for visiting! I'm excited to connect with you and
               facilitate meaningful conversations. Whether you share my
               enthusiasm for the field or simply seek engaging discussions, this
               space is created for us to connect and exchange ideas.
             </p>
-            <br></br>
+            <br />
             <p className="whitespace-break-spaces">
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
@@ -430,6 +433,10 @@ function AboutMe() {
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
+                url="https://medium.com/@katarighe"
+              />{" "}
+              <SocialIcon
+                className="hover:scale-110 transition-transform duration-400"
                 url="https://scholar.google.com/citations?user=p_BiBB0AAAAJ&hl=en"
               />{" "}
               <SocialIcon
@@ -445,6 +452,49 @@ function AboutMe() {
                 url="https://www.snapchat.com/add/m.ighe?share_id=VL1Yc5t5ObQ&locale=en-US"
               />{" "}
             </p>
+            <br />
+            <tr>
+              <td className="whitespace-break-spaces">
+                <ReactSocialMediaIcons
+                  className="hover:scale-110 transition-transform duration-400"
+                  borderColor="rgba(0,0,0,0.25)"
+                  icon="line"
+                  iconColor="rgba(255,255,255,1)"
+                  url="https://line.me/ti/p/mH4XEel70b"
+                  size="50"
+                />
+              </td>
+              <td className="whitespace-break-spaces">
+                <ReactSocialMediaIcons
+                  className="hover:scale-110 transition-transform duration-400"
+                  borderColor="rgba(0,0,0,0.25)"
+                  icon="messenger"
+                  iconColor="rgba(255,255,255,1)"
+                  url="https://msng.link/o?katarighe=fm"
+                  size="50"
+                />
+              </td>
+              <td className="whitespace-break-spaces">
+                <ReactSocialMediaIcons
+                  className="hover:scale-110 transition-transform duration-400"
+                  borderColor="rgba(0,0,0,0.25)"
+                  icon="skype"
+                  iconColor="rgba(255,255,255,1)"
+                  url="live:m.ighe"
+                  size="50"
+                />
+              </td>
+              <td className="whitespace-break-spaces">
+                <ReactSocialMediaIcons
+                  className="hover:scale-110 transition-transform duration-400"
+                  borderColor="rgba(0,0,0,0.25)"
+                  icon="angellist"
+                  iconColor="rgba(255,255,255,1)"
+                  url="https://wellfound.com/u/katarighe"
+                  size="50"
+                />
+              </td>
+            </tr>
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
               Please feel free to explore the diverse social media channels and
