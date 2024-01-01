@@ -120,12 +120,11 @@ function AboutMe() {
             <img
               src="src/assets/mai-profile.jpg"
               alt="About Me"
-              className="mr-4 max-w-[20rem] max-h-[20rem] overflow-hidden position-relative object-right-top justify-end items-end md:float-right md:object"
+              className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-2xl"
             />
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Greetings, I'm Mohamed
-              <br />
+              Greetings, I'm Mohamed<br />
               <br />
               As a full-stack developer with expertise in front-end and back-end
               skills, I thrive on building and deploying applications. My recent
