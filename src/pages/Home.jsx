@@ -179,7 +179,7 @@ function Home() {
               <br />
               If you come across something you like or have a specific project
               that requires attention, don't hesitate to reach out to me. I would
-              be delighted to contribute to your software needs. <br />
+              be delighted to contribute to your technical needs. <br />
               <br />
               My background spans across various IT categories, with a focus on
               coding and data, including HTML, CSS, JavaScript, React, Ruby on
