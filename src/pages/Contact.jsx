@@ -11,10 +11,11 @@ function Contact() {
       <section className="py-20">
         <div className="container">
           <h2 className="font-bold text-2xl mb-1 font-robotoOriginal">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I&apos;d
-            love to help with it. You can also reach me through social media,
-            email, or instant messaging.
+            If you have an application you're interested in developing, a
+            feature that you need built, or a project that needs coding,
+            I&apos;d love to help. You can also reach me through social media,
+            email, or instant messaging (e.g., WhatsApp). I look forward to
+            hearing from you soon!
           </h2>
           <form
             action="https://formspree.io/f/mlekylyd"
@@ -64,10 +65,10 @@ function Contact() {
                 className="border-b-2 border-black w-full py-2 text-lg font-robotoCondensed rounded-b-md"
               ></textarea>
             </label>
-            <div className="flex justify-center items-center mt-16 md:mt-20 md:flex-row">
+            <div className="flex justify-center items-center mt-16 md:mt-10 md:flex-row">
               <button
                 type="submit"
-                className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                className="p-3 px-10 text-white bg-gradient-to-r from-indigo-500 to-blue-600 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-105 transition-transform duration-300 rounded-full shadow-md"
               >
                 Get in touch
               </button>
