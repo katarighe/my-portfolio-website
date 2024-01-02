@@ -26,6 +26,7 @@ function Contact() {
                   type="text"
                   name="name"
                   placeholder="Your name"
+                  required
                   className="border-b-2 border-black w-full py-2 text-lg font-robotoCondensed rounded-b-md"
                 />
               </label>
@@ -38,6 +39,7 @@ function Contact() {
                   type="email"
                   name="email"
                   placeholder="Your email"
+                  required
                   className="border-b-2 border-black w-full py-2 text-lg font-robotoCondensed rounded-b-md"
                 />
               </label>
@@ -53,6 +55,7 @@ function Contact() {
                 id="message"
                 name="message"
                 placeholder="Write your message here..."
+                required
                 className="border-b-2 border-black w-full py-2 text-lg font-robotoCondensed rounded-b-md"
               ></textarea>
             </label>
