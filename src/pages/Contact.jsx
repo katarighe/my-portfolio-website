@@ -6,7 +6,7 @@ function Contact() {
       <Hero
         name="Contact Me"
         details="Say Hello to Me"
-        backgroundImage="src/assets/my-projects-background.jpg"
+        backgroundImage="src/assets/contact-background.jpg"
       />
       <section className="py-20">
         <div className="container">
