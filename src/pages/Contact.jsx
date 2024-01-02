@@ -1,0 +1,74 @@
+import Hero from "../components/Hero";
+
+function Contact() {
+  return (
+    <>
+      <Hero
+        name="Contact Me"
+        details="Say Hello to Me"
+        backgroundImage="src/assets/my-projects-background.jpg"
+      />
+      <section className="py-20">
+        <div className="container">
+          <h2 className="font-bold text-2xl mb-1 font-robotoOriginal">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I&apos;d
+            love to help with it.
+          </h2>
+          <form action="/submit-form" method="post" className="mt-8">
+            <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-4">
+              <label htmlFor="name" className="form-control w-full">
+                <span className="label-text text-lg font-bold font-robotoCondensed">
+                  Name
+                </span>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  className="border-b-2 border-black w-full py-2 text-lg font-robotoCondensed rounded-b-md"
+                />
+              </label>
+              <label htmlFor="email" className="form-control w-full">
+                <span className="label-text text-lg font-bold font-robotoCondensed">
+                  Email
+                </span>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Your email"
+                  className="border-b-2 border-black w-full py-2 text-lg font-robotoCondensed rounded-b-md"
+                />
+              </label>
+            </div>
+            <label
+              htmlFor="message"
+              className="form-control w-full mt-10 md:mt-16"
+            >
+              <span className="label-text text-lg font-bold font-robotoCondensed">
+                Message
+              </span>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message here..."
+                className="border-b-2 border-black w-full py-2 text-lg font-robotoCondensed rounded-b-md"
+              ></textarea>
+            </label>
+            <div className="flex justify-center items-center mt-16 md:mt-20 md:flex-row">
+              <button
+                type="submit"
+                className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              >
+                Submit Form
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default Contact;
