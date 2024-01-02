@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation  } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Dialog } from "@headlessui/react";
 import { 
   BiMenuAltRight, 
@@ -27,8 +27,6 @@ const MiddleText = () => {
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showShadow, setShowShadow] = useState(false);
-  const location = useLocation();
-  const isPageActive = location.pathname;
 
   useEffect(() => {
     const handleScroll = () => {

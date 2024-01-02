@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { IoIosChatboxes } from "react-icons/io";
@@ -35,7 +35,7 @@ import { ReactSocialMediaIcons } from "react-social-media-icons";
 import Hero from "../components/Hero";
 
 function AboutMe() {
-  const [activeTab, setActiveTab] = useState("all");
+  const [activeTab, setActiveTab] = useState('all');
   const [frontendTools, setFrontendTools] = useState([]);
   const [backendDatabases, setBackendDatabases] = useState([]);
   const [SkillTools, setSkillTools] = useState([]);
@@ -85,6 +85,7 @@ function AboutMe() {
     setFrontendTools(technologyStack.frontend.tools);
     setBackendDatabases(technologyStack.backend.tools);
     setSkillTools(technologyStack.tools);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleTabChange = (tab) => {
@@ -125,12 +126,12 @@ function AboutMe() {
             />
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Greetings, I'm Mohamed
+              Greetings, I&apos;m Mohamed
               <br />
               <br />
               As a full-stack developer with expertise in front-end and back-end
               skills, I thrive on building and deploying applications. My recent
-              participation in Microverse's intensive full-stack program has
+              participation in Microverse&apos;s intensive full-stack program has
               strengthened my skills, as evidenced by my 20+ successful solo and
               collaborative projects. <br />
               <br />
@@ -142,18 +143,18 @@ function AboutMe() {
               education initiatives that spark young minds in my community.
               <br />
               <br />
-              Throughout my career, I've actively cultivated my expertise
+              Throughout my career, I&apos;ve actively cultivated my expertise
               through collaborations with diverse companies and organizations.
               My direct influence on the success of dozens of clients has
               showcased my versatile skillset, spanning data management,
               networking, IT support, operating systems, design, research,
               full-stack development, and even academic-related projects. <br />
               <br />
-              I've dedicated over 1,300+ hours to mastering algorithms, data
+              I&apos;ve dedicated over 1,300+ hours to mastering algorithms, data
               structures, and full-stack development. This dedication translated
               into practical experience as I simultaneously built projects
               utilizing HTML, CSS, Ruby, Rails, JavaScript, React, and Redux.
-              Moreover, I've actively collaborated with remote developers from
+              Moreover, I&apos;ve actively collaborated with remote developers from
               around the globe and boosted my teamwork skills through numerous
               group projects. <br />
               <br />
@@ -165,7 +166,8 @@ function AboutMe() {
               bring professionalism and enthusiasm to the table, confident in my
               ability to make a significant contribution to your team. <br />
               <br />
-              If you're looking for a committed developer, let's get in touch!
+              If you&apos;re looking for a committed developer, let&apos;s 
+              get in touch!
             </p>
           </article>
           <article className="max-w-[45rem] mx-auto">
@@ -489,7 +491,7 @@ function AboutMe() {
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
               Please feel free to explore the diverse social media channels and
-              other portals. Let's establish a community where ideas flow,
+              other portals. Let&apos;s establish a community where ideas flow,
               knowledge grows, and connections flourish. I am excited to hear
               from you and embark on this journey together!
             </p>
