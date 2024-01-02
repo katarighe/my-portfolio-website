@@ -4,6 +4,7 @@ import Footer from "./layouts/Footer";
 import Home from "./pages/Home";
 import MyProjects from "./pages/MyProjects";
 import AboutMe from "./pages/AboutMe";
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/my-projects" element={<MyProjects />} />
           <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/contact" element={<p>Contact</p>} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />
