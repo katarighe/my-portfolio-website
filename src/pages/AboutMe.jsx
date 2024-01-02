@@ -384,29 +384,6 @@ function AboutMe() {
           </article>
           <article className="max-w-[45rem] mx-auto">
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
-              My Hobbies and Interests
-            </h3>
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. <br />
-              <br />
-              At vero eos et accusam et justo duo dolores et ea rebum. Stet
-              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet. <br />
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. <br />
-              <br />
-              Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-              esse molestie consequat, vel illum dolore eu feugiat nulla
-            </p>
-          </article>
-          <article className="max-w-[45rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
               Connect with me
             </h3>
             <br />
