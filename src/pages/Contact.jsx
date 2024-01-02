@@ -15,11 +15,11 @@ function Contact() {
             feature that you need built or a project that needs coding. I&apos;d
             love to help with it.
           </h2>
-          <form action="/submit-form" method="post" className="mt-8">
+          <form action="https://formspree.io/f/mlekylyd" method="post" className="mt-8">
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-4">
               <label htmlFor="name" className="form-control w-full">
                 <span className="label-text text-lg font-bold font-robotoCondensed">
-                  Name
+                  Name<span className="text-red-500"> * </span>
                 </span>
                 <input
                   id="name"
@@ -32,7 +32,7 @@ function Contact() {
               </label>
               <label htmlFor="email" className="form-control w-full">
                 <span className="label-text text-lg font-bold font-robotoCondensed">
-                  Email
+                  Email<span className="text-red-500"> * </span>
                 </span>
                 <input
                   id="email"
@@ -49,7 +49,7 @@ function Contact() {
               className="form-control w-full mt-10 md:mt-16"
             >
               <span className="label-text text-lg font-bold font-robotoCondensed">
-                Message
+                Message<span className="text-red-500"> * </span>
               </span>
               <textarea
                 id="message"
