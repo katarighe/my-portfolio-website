@@ -55,6 +55,7 @@ function Home() {
       image: project1,
       details:
         "A frontend/backend application that allows users to book appointments with doctors. Access to the application requires users to sign up or sign in, which can be done through the provided forms.",
+      releaseDate: "December 2023",
       techStack: "Ruby, Rails, ReactJS, PostgreSQL, Bootstrap, API",
       live: "https://book-doctor-appointment-frontend.netlify.app/",
       source: "https://github.com/katarighe/book-appointment-back-end",
@@ -65,6 +66,7 @@ function Home() {
       image: project1,
       details:
         "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
+      releaseDate: "September 2023",
       techStack: "ReactJS, Route, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
       source: "https://github.com/katarighe/capstone-metrics-webapp",
@@ -75,6 +77,7 @@ function Home() {
       image: project1,
       details:
         "A budget app named SmartPocket Budget keeps track of all your expenses associated with categories.",
+      releaseDate: "November 2023",
       techStack: "ReactJS, Redux, Route, Tailwind CSS, DaisyUI, API",
       live: "https://moyen-budget.onrender.com/",
       source: "https://github.com/katarighe/budget-app",
@@ -302,6 +305,9 @@ function Home() {
                     </h2>
                     <p className="mt-4 font-robotoOriginal">
                       {selectedProject.details}
+                    </p>
+                    <p className="mt-4 font-semibold font-robotoOriginal">
+                      Release Date: {selectedProject.releaseDate}
                     </p>
                     <div className="my-5">
                       {techStackToArray(selectedProject.techStack).map(
