@@ -64,7 +64,7 @@ function Contact() {
                 type="submit"
                 className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
               >
-                Submit Form
+                Get in touch
               </button>
             </div>
           </form>
