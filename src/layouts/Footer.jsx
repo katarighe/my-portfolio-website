@@ -22,7 +22,7 @@ function Header() {
             >
              📞 +1 (647) 373 9841
             </a>
-            <span className="font-light text-m"> 📌 Diego Garcia, British Indian Ocean Territory</span>
+            <span className="font-light text-m"> 📌 #2004-370 Dixon Road, Etobicoke, ON, M9R 1T2, Canada</span>
           </div>
         </div>
       </header>
