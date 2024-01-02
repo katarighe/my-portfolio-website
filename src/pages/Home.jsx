@@ -243,7 +243,7 @@ function Home() {
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
                       <div className="m-6 text-white">
-                        <h5 className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600">
+                        <h5 className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600" onClick={() => openModal(index)}>
                           {item.title}
                         </h5>
                         {techStackToArray(item.techStack).map((tech, index) => (
