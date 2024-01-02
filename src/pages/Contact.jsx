@@ -13,9 +13,14 @@ function Contact() {
           <h2 className="font-bold text-2xl mb-1 font-robotoOriginal">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I&apos;d
-            love to help with it.
+            love to help with it. You can also reach me through social media,
+            email, or instant messaging.
           </h2>
-          <form action="https://formspree.io/f/mlekylyd" method="post" className="mt-8">
+          <form
+            action="https://formspree.io/f/mlekylyd"
+            method="post"
+            className="mt-8"
+          >
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-4">
               <label htmlFor="name" className="form-control w-full">
                 <span className="label-text text-lg font-bold font-robotoCondensed">
