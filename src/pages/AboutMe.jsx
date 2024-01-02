@@ -116,7 +116,7 @@ function AboutMe() {
         <div className="container space-y-10 py-16">
           <article className="max-w-[45rem] mx-auto">
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
-              My Background
+              Introduction
             </h3>
             <img
               src="src/assets/mai-profile.jpg"
