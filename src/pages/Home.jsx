@@ -15,9 +15,7 @@ import {
   SiJquery,
   SiAngular,
 } from "react-icons/si";
-import { IoIosChatboxes } from "react-icons/io";
 import { IoIosAdd } from "react-icons/io";
-import { IoIosPaper } from "react-icons/io";
 import { TbBrandVscode } from "react-icons/tb";
 import {
   EyeIcon,
@@ -55,7 +53,7 @@ function Home() {
       image: project1,
       details:
         "A frontend/backend application that allows users to book appointments with doctors. Access to the application requires users to sign up or sign in, which can be done through the provided forms.",
-      releaseDate: "December 2023",
+      releaseDate: "15 December 2023",
       techStack: "Ruby, Rails, ReactJS, PostgreSQL, Bootstrap, API",
       live: "https://book-doctor-appointment-frontend.netlify.app/",
       source: "https://github.com/katarighe/book-appointment-back-end",
@@ -66,7 +64,7 @@ function Home() {
       image: project1,
       details:
         "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
-      releaseDate: "September 2023",
+      releaseDate: "6 September 2023",
       techStack: "ReactJS, Route, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
       source: "https://github.com/katarighe/capstone-metrics-webapp",
@@ -77,7 +75,7 @@ function Home() {
       image: project1,
       details:
         "A budget app named SmartPocket Budget keeps track of all your expenses associated with categories.",
-      releaseDate: "November 2023",
+      releaseDate: "24 November 2023",
       techStack: "ReactJS, Redux, Route, Tailwind CSS, DaisyUI, API",
       live: "https://moyen-budget.onrender.com/",
       source: "https://github.com/katarighe/budget-app",
@@ -181,8 +179,8 @@ function Home() {
               journey. <br />
               <br />
               If you come across something you like or have a specific project
-              that requires attention, don&apos;t hesitate to reach out to me. I would
-              be delighted to contribute to your technical needs. <br />
+              that requires attention, don&apos;t hesitate to reach out to me. I
+              would be delighted to contribute to your technical needs. <br />
               <br />
               My background spans across various IT categories, with a focus on
               coding and data, including HTML, CSS, JavaScript, React, Ruby on
@@ -220,7 +218,7 @@ function Home() {
             </ul>
             <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
               <Link
-                to="/about-me"
+                to="/about"
                 className="p-2 px-6 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-base flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
               >
                 <IoIosAdd className="text-xl" />
@@ -231,7 +229,7 @@ function Home() {
         </div>
         <article className="max-w-[35rem] mx-auto">
           <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
-            My Projects
+            My Portfolio
           </h3>
         </article>
         <div className="container py-5 md:py-16">
@@ -243,7 +241,10 @@ function Home() {
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
                       <div className="m-6 text-white">
-                        <h5 className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600" onClick={() => openModal(index)}>
+                        <h5
+                          className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600"
+                          onClick={() => openModal(index)}
+                        >
                           {item.title}
                         </h5>
                         {techStackToArray(item.techStack).map((tech, index) => (
@@ -362,28 +363,12 @@ function Home() {
           )}
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
-              to="/my-projects"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              to="/portfolio"
+              className="p-2 px-6 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-base flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
-              <IoIosAdd className="text-2xl" />
-              PORTFOLIO
+              <IoIosAdd className="text-xl" />
+              SEE MORE
             </Link>
-            <Link
-              to="/contact"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
-            >
-              <IoIosChatboxes className="text-2xl" />
-              CONTACT
-            </Link>
-            <a
-              href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IoIosPaper className="text-2xl" />
-              RESUME / CV
-            </a>
           </div>
         </div>
       </section>
