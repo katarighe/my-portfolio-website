@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { IoIosChatboxes } from "react-icons/io";
+import { IoIosChatboxes, IoIosPaper } from "react-icons/io";
 import {
   FaReact,
   FaCss3,
@@ -110,7 +110,7 @@ function AboutMe() {
     <>
       <Hero
         name="About Me"
-        details="Welcome to my portfolio!"
+        details="An introduction of myself"
         backgroundImage="src/assets/about-me-background.png"
       />
       <section className="text-black">
@@ -169,6 +169,17 @@ function AboutMe() {
               If you&apos;re looking for a committed developer, let&apos;s 
               get in touch!
             </p>
+            <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
+            <a
+              href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
+              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoIosPaper className="text-2xl" />
+              GET MY RESUME / CV
+            </a>
+            </div>
           </article>
           <article className="max-w-[45rem] mx-auto">
             <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
