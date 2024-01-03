@@ -366,14 +366,14 @@ function Home() {
               className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-base flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosAdd className="text-2xl" />
-              MORE PROJECTS
+              PORTFOLIO
             </Link>
             <Link
               to="/contact"
               className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosChatboxes className="text-2xl" />
-              CONTACT ME
+              CONTACT
             </Link>
             <a
               href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
