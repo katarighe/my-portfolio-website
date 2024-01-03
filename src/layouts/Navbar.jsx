@@ -8,9 +8,9 @@ import {
 import logo from '../assets/mai-logo.png';
 
 const navigation = [
-  { name: "Homepage", href: "/" },
-  { name: "My Projects", href: "/my-projects" },
-  { name: "About Me", href: "/about-me" },
+  { name: "Home", href: "/" },
+  { name: "Portfolio", href: "/portfolio" },
+  { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
 
