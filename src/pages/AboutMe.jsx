@@ -393,50 +393,74 @@ function AboutMe() {
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://facebook.com/katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://instagram.com/m.ighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://x.com/katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://youtube.com/@katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://linkedin.com/in/mighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://github.com/katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://www.reddit.com/user/Katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://medium.com/@katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://scholar.google.com/citations?user=p_BiBB0AAAAJ&hl=en"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://api.whatsapp.com/send?phone=16473739841"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://telegram.me/katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://www.snapchat.com/add/m.ighe?share_id=VL1Yc5t5ObQ&locale=en-US"
+                target="_blank"
+                rel="noopener"
               />{" "}
             </p>
             <br />
@@ -452,6 +476,8 @@ function AboutMe() {
                         iconColor="rgba(255,255,255,1)"
                         url="https://line.me/ti/p/mH4XEel70b"
                         size="50"
+                        target="_blank"
+                        rel="noopener"
                       />
                     </td>
                     <td className="whitespace-break-spaces">
@@ -462,6 +488,8 @@ function AboutMe() {
                         iconColor="rgba(255,255,255,1)"
                         url="https://msng.link/o?katarighe=fm"
                         size="50"
+                        target="_blank"
+                        rel="noopener"
                       />
                     </td>
                     <td className="whitespace-break-spaces">
@@ -472,6 +500,8 @@ function AboutMe() {
                         iconColor="rgba(255,255,255,1)"
                         url="live:m.ighe"
                         size="50"
+                        target="_blank"
+                        rel="noopener"
                       />
                     </td>
                     <td className="whitespace-break-spaces">
@@ -482,6 +512,8 @@ function AboutMe() {
                         iconColor="rgba(255,255,255,1)"
                         url="https://wellfound.com/u/katarighe"
                         size="50"
+                        target="_blank"
+                        rel="noopener"
                       />
                     </td>
                   </tr>
