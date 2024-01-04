@@ -177,7 +177,7 @@ function AboutMe() {
               rel="noopener noreferrer"
             >
               <IoIosPaper className="text-2xl" />
-              GET MY RESUME / CV
+              MY RESUME / CV
             </a>
             </div>
           </article>
