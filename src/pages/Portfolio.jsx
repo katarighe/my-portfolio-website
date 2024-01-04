@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Hero from "../components/Hero";
-import project1 from "../assets/background-project.jpg";
+import project1 from "../assets/background/background-project.jpg";
 import { Link } from "react-router-dom";
 import { IoIosChatboxes } from "react-icons/io";
 import {
@@ -139,7 +139,7 @@ function MyProjects() {
       <Hero
         name="Portfolio"
         details="Projects Crafted with Care"
-        backgroundImage="src/assets/my-projects-background.jpg"
+        backgroundImage="src/assets/background/my-projects-background.jpg"
       />
       <div className="flex flex-col justify-center items-center px-10 gap-10 mt-10 md:flex-row">
         <p className="text-newDarkGray text-lg font-robotoOriginal">

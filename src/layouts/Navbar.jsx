@@ -5,7 +5,7 @@ import {
   BiMenuAltRight, 
   BiX,
 } from "react-icons/bi";
-import logo from '../assets/mai-logo.png';
+import logo from '../assets/logo/mai-logo.png';
 
 const navigation = [
   { name: "Home", href: "/" },

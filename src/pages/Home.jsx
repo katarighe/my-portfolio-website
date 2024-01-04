@@ -24,7 +24,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 import Hero from "../components/Hero";
-import project1 from "../assets/background-project.jpg";
+import project1 from "../assets/background/background-project.jpg";
 
 function Home() {
   const skills = [
@@ -156,13 +156,13 @@ function Home() {
       <Hero
         name="Mohamed Aden Ighe"
         details="Full Stack Web Developer & Data Analyst"
-        backgroundImage="src/assets/coding-background.jpg"
+        backgroundImage="src/assets/background/coding-background.jpg"
       />
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto">
             <img
-              src="src/assets/mai-profile.jpg"
+              src="src/assets/logo/mai-profile.jpg"
               alt="About Me"
               className="mr-3 max-w-[15rem] max-h-[15rem] object-right md:float-right md:object rounded-2xl"
             />

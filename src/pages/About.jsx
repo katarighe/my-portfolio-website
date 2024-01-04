@@ -111,7 +111,7 @@ function AboutMe() {
       <Hero
         name="About Me"
         details="An introduction of myself"
-        backgroundImage="src/assets/about-me-background.png"
+        backgroundImage="src/assets/background/about-me-background.png"
       />
       <section className="text-black">
         <div className="container space-y-10 py-16">
@@ -120,7 +120,7 @@ function AboutMe() {
               Introduction
             </h3>
             <img
-              src="src/assets/mai-profile.jpg"
+              src="src/assets/logo/mai-profile.jpg"
               alt="About Me"
               className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-2xl"
             />
