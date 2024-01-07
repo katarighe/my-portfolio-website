@@ -6,6 +6,7 @@ import {
   BiX,
 } from "react-icons/bi";
 import logo from '../assets/logo/mai-logo.png';
+import '../styles/menu-transition.css';
 
 const navigation = [
   { name: "Home", href: "/" },

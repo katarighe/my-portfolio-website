@@ -1,0 +1,21 @@
+/* Define the initial state of the page */
+.page-enter {
+  opacity: 0;
+}
+
+/* Define the final state of the page after the transition */
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+/* Define the initial state of the page being exited */
+.page-exit {
+  opacity: 1;
+}
+
+/* Define the final state of the page after the exit transition */
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
