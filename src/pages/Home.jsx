@@ -345,13 +345,13 @@ function Home() {
                     <div className="flex justify-between mt-6 relative top-0">
                       <button
                         onClick={prevProject}
-                        className="text-newDarkGray text-xl font-semibold dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                        className="text-newDarkGray text-lg font-semibold dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300"
                       >
                         Previous
                       </button>
                       <button
                         onClick={nextProject}
-                        className="text-newDarkGray text-xl font-semibold dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                        className="text-newDarkGray text-lg font-semibold dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300"
                       >
                         Next
                       </button>
