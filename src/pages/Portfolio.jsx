@@ -289,7 +289,7 @@ function MyProjects() {
             </p>
             <Link
               to="/contact"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosChatboxes className="text-2xl" />
               CONTACT
