@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import { IoIosChatboxes } from "react-icons/io";
 
 function Contact() {
   return (
@@ -65,9 +66,10 @@ function Contact() {
             <div className="flex justify-center items-center mt-16 md:mt-10 md:flex-row">
               <button
                 type="submit"
-                className="p-3 px-10 text-white bg-gradient-to-r from-indigo-500 to-blue-600 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-105 transition-transform duration-300 rounded-full shadow-md"
+                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
               >
-                Get In Touch
+                <IoIosChatboxes className="text-2xl" />
+                GET IN TOUCH
               </button>
             </div>
           </form>
