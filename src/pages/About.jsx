@@ -172,7 +172,7 @@ function AboutMe() {
             <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <a
               href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -546,7 +546,7 @@ function AboutMe() {
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/contact"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosChatboxes className="text-2xl" />
               CONTACT ME
