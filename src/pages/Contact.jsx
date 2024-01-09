@@ -12,8 +12,9 @@ function Contact() {
       <section className="py-20">
         <div className="container">
           <h2 className="font-bold text-2xl mb-1 font-robotoOriginal">
-            I&apos;m always interested in hearing about new projects, so if
-            you&apos;d like to chat please get in touch.
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I&apos;d
+            love to help with it.
           </h2>
           <form
             action="https://formspree.io/f/mlekylyd"
