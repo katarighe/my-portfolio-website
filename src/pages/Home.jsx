@@ -52,7 +52,7 @@ function Home() {
       title: "Book A Doctor",
       image: project1,
       details:
-        "A frontend/backend application that allows users to book appointments with doctors. Access to the application requires users to sign up or sign in, which can be done through the provided forms.",
+        "An application, with both frontend and backend components, enabling users to schedule appointments with doctors. Access necessitates user sign-up or sign-in through provided forms.",
       releaseDate: "15 December 2023",
       techStack: "Ruby, Rails, ReactJS, PostgreSQL, Bootstrap, API",
       live: "https://book-doctor-appointment-frontend.netlify.app/",
@@ -63,7 +63,7 @@ function Home() {
       title: "Mini World Atlas",
       image: project1,
       details:
-        "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
+        "Mobile web app enabling users to view numeric metrics from the REST countries API, providing information about various countries.",
       releaseDate: "6 September 2023",
       techStack: "ReactJS, Route, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
@@ -74,7 +74,7 @@ function Home() {
       title: "SmartPocket Budget",
       image: project1,
       details:
-        "A budget app named SmartPocket Budget keeps track of all your expenses associated with categories.",
+        "SmartPocket Budget, a budgeting app, monitors expenses across various categories.",
       releaseDate: "24 November 2023",
       techStack: "ReactJS, Redux, Route, Tailwind CSS, DaisyUI, API",
       live: "https://moyen-budget.onrender.com/",
