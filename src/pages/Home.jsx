@@ -155,7 +155,7 @@ function Home() {
     <>
       <Hero
         name="Mohamed Aden Ighe"
-        details="Full Stack Web Developer & Data Analyst"
+        details="Full Stack Web Developer"
         backgroundImage="src/assets/background/coding-background.jpg"
       />
       <section className="text-black">
@@ -170,8 +170,8 @@ function Home() {
               About Me
             </h3>
             <p className="text-base font-robotoOriginal">
-              I am a full-stack web developer and data analyst with over 3 years
-              of hands-on experience in diverse roles. I have the expertise to
+              I am a devoted full-stack web developer with over 2 years of
+              hands-on experience in diverse roles. I have the expertise to
               support you in constructing projects, implementing features, or
               developing websites, as well as assisting startups in bringing
               their products from concept to launch. Please feel free to explore
@@ -182,14 +182,13 @@ function Home() {
               that requires attention, don&apos;t hesitate to reach out to me. I
               would be delighted to contribute to your technical needs. <br />
               <br />
-              My background spans across various IT categories, with a focus on
-              coding and data, including HTML, CSS, JavaScript, React, Ruby on
-              Rails, Nodejs, MySQL, MongoDB, and PostgreSQL. I graduated with a
-              Bachelor of Science in Information Technology (BIT) degree in
-              August 2016 and earned a Master of Science in Computer Science
-              (MCS) degree in September 2020. This educational background equips
-              me to smoothly handle the development of diverse applications.{" "}
-              <br />
+              My background spans across various categories, including HTML,
+              CSS, JavaScript, React, Ruby on Rails, Nodejs, MySQL, MongoDB, and
+              PostgreSQL. I graduated with a Bachelor of Science in Information
+              Technology (BIT) degree in 2016 and earned a Master of Science in
+              Computer Science (MCS) degree in 2020. This educational background
+              equips me to smoothly handle the development of diverse
+              applications. <br />
               <br />
               In February 2024, I achieved a significant milestone by earning a
               full-stack web development certificate from Microverse, a
