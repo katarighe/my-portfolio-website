@@ -126,7 +126,7 @@ function AboutMe() {
             />
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Greetings, I&apos;m Mohamed
+              Greetings, I&apos;m Mohamed,
               <br />
               <br />
               As a full-stack developer with expertise in front-end and back-end
