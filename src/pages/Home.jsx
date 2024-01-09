@@ -46,7 +46,7 @@ function Home() {
     { name: "Angular", icon: <SiAngular />, color: "text-red-600" },
   ];
 
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       id: 1,
       title: "Book A Doctor",
