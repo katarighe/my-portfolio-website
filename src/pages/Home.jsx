@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { FaReact, FaCss3, FaHtml5, FaChrome, FaGitAlt } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaChrome, FaGitAlt } from "react-icons/fa";
 import {
   SiJavascript,
   SiNodedotjs,
