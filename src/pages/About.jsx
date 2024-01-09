@@ -132,7 +132,7 @@ function AboutMe() {
               As a full-stack developer with expertise in front-end and back-end
               skills, I thrive on building and deploying applications. My recent
               participation in Microverse&apos;s intensive full-stack program has
-              strengthened my skills, as evidenced by my 20+ successful solo and
+              strengthened my skills, as evidenced by my 15+ successful solo and
               collaborative projects. <br />
               <br />
               My passion lies in weaving clean, robust code into tangible
