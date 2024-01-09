@@ -35,7 +35,7 @@ import { ReactSocialMediaIcons } from "react-social-media-icons";
 import Hero from "../components/Hero";
 
 function AboutMe() {
-  const [activeTab, setActiveTab] = useState('all');
+  const [activeTab, setActiveTab] = useState("all");
   const [frontendTools, setFrontendTools] = useState([]);
   const [backendDatabases, setBackendDatabases] = useState([]);
   const [SkillTools, setSkillTools] = useState([]);
@@ -131,9 +131,9 @@ function AboutMe() {
               <br />
               As a full-stack developer with expertise in front-end and back-end
               skills, I thrive on building and deploying applications. My recent
-              participation in Microverse&apos;s intensive full-stack program has
-              strengthened my skills, as evidenced by my 15+ successful solo and
-              collaborative projects. <br />
+              participation in Microverse&apos;s intensive full-stack program
+              has strengthened my skills, as evidenced by my 15+ successful solo
+              and collaborative projects. <br />
               <br />
               My passion lies in weaving clean, robust code into tangible
               applications. I thrive in collaborative environments where I can
@@ -150,13 +150,13 @@ function AboutMe() {
               networking, IT support, operating systems, design, research,
               full-stack development, and even academic-related projects. <br />
               <br />
-              I&apos;ve dedicated over 1,300+ hours to mastering algorithms, data
-              structures, and full-stack development. This dedication translated
-              into practical experience as I simultaneously built projects
-              utilizing HTML, CSS, Ruby, Rails, JavaScript, React, and Redux.
-              Moreover, I&apos;ve actively collaborated with remote developers from
-              around the globe and boosted my teamwork skills through numerous
-              group projects. <br />
+              I&apos;ve dedicated over 1,300+ hours to mastering algorithms,
+              data structures, and full-stack development. This dedication
+              translated into practical experience as I simultaneously built
+              projects utilizing HTML5, CSS3, Ruby, Ruby on Rails, JavaScript,
+              React, and Redux. Moreover, I&apos;ve actively collaborated with
+              remote developers from around the globe and boosted my teamwork
+              skills through numerous group projects. <br />
               <br />
               Motivated by a desire to contribute to impactful work, I seek
               opportunities with mission-driven companies that prioritize
@@ -166,19 +166,19 @@ function AboutMe() {
               bring professionalism and enthusiasm to the table, confident in my
               ability to make a significant contribution to your team. <br />
               <br />
-              If you&apos;re looking for a committed developer, let&apos;s 
-              get in touch!
+              If you&apos;re looking for a committed developer, let&apos;s get
+              in touch!
             </p>
             <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
-            <a
-              href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
-              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IoIosPaper className="text-2xl" />
-              MY RESUME / CV
-            </a>
+              <a
+                href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
+                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoIosPaper className="text-2xl" />
+                MY RESUME / CV
+              </a>
             </div>
           </article>
           <article className="max-w-[45rem] mx-auto">
