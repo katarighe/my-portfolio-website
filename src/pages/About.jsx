@@ -379,21 +379,6 @@ function AboutMe() {
                 </div>
               )}
             </article>
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Front-End: HTML5, CSS3, JavaScript, React, Angular, Vue.js, Redux,
-              jQuery, Tailwind CSS, Bootstrap <br />
-              <br />
-              Back-End: Java, Python, PHP, C/C++, Ruby, Rails, Node.js, SQL,
-              NoSQL, MongoDB, MySQL, PostgreSQL, Laravel <br />
-              <br />
-              Tools & Methods: Git, GitHub, Docker, Kubernetes, Agile
-              development, Scrum, Kanban, Heroku, Netlify, Mobile/Responsive
-              Development, RSpec, TDD, Chrome Dev Tools<br />
-              <br />
-              Professional: Communication, Problem-solving, Teamwork, Mentoring,
-              Leadership, Adaptability, Critical thinking, Creativity, Research,
-              Remote Pair-Programming
-            </p>
           </article>
           <article className="max-w-[45rem] mx-auto">
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
