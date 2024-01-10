@@ -29,7 +29,7 @@ function MyProjects() {
       details:
         "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
       releaseDate: "6 September 2023",
-      techStack: "React JS, Route, Redux, API",
+      techStack: "ReactJS, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
       source: "https://github.com/katarighe/capstone-metrics-webapp",
     },

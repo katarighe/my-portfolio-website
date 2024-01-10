@@ -67,7 +67,7 @@ function Home() {
       details:
         "Mobile web app enabling users to view numeric metrics from the REST countries API, providing information about various countries.",
       releaseDate: "6 September 2023",
-      techStack: "ReactJS, Route, Redux, API",
+      techStack: "ReactJS, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
       source: "https://github.com/katarighe/capstone-metrics-webapp",
     },
