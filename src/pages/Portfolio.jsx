@@ -40,7 +40,7 @@ function MyProjects() {
       details:
         "SmartPocket Budget, a budgeting app, monitors expenses across various categories.",
       releaseDate: "24 November 2023",
-      techStack: "ReactJS, Redux, Route, CSS, API",
+      techStack: "Ruby, Rails, PostgreSQL",
       live: "https://moyen-budget.onrender.com/",
       source: "https://github.com/katarighe/budget-app",
     },
