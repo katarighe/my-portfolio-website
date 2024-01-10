@@ -24,8 +24,12 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
+
+// Templates & Screenshots
 import Hero from "../components/Hero";
-import project1 from "../assets/background/background-project.jpg";
+import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
+import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
+import bookadoctor from "../assets/screenshots/book-a-doctor.jpg";
 
 function Home() {
   const skills = [
@@ -52,7 +56,7 @@ function Home() {
     {
       id: 1,
       title: "Book A Doctor",
-      image: project1,
+      image: bookadoctor,
       details:
         "An application, with both frontend and backend components, enabling users to schedule appointments with doctors. Access necessitates user sign-up or sign-in through provided forms.",
       releaseDate: "15 December 2023",
@@ -63,7 +67,7 @@ function Home() {
     {
       id: 2,
       title: "Mini World Atlas",
-      image: project1,
+      image: worldatlas,
       details:
         "Mobile web app enabling users to view numeric metrics from the REST countries API, providing information about various countries.",
       releaseDate: "6 September 2023",
@@ -74,7 +78,7 @@ function Home() {
     {
       id: 3,
       title: "SmartPocket Budget",
-      image: project1,
+      image: smartpocket,
       details:
         "SmartPocket Budget, a budgeting app, monitors expenses across various categories.",
       releaseDate: "24 November 2023",
@@ -150,7 +154,7 @@ function Home() {
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto">
             <img
-              src="src/assets/logo/mai-profile.jpg"
+              src="src/assets/logo/background-project.jpg"
               alt="About Me"
               className="mr-3 max-w-[15rem] max-h-[15rem] object-right md:float-right md:object rounded-2xl"
             />
@@ -227,9 +231,9 @@ function Home() {
                   <img src={item.image} alt={item.title} className="w-full" />
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
-                      <div className="m-6 text-white">
+                      <div className="m-6 text-black">
                         <h5
-                          className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600"
+                          className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-white"
                           onClick={() => openModal(index)}
                         >
                           {item.title}

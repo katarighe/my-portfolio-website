@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Hero from "../components/Hero";
-import project1 from "../assets/background/background-project.jpg";
 import { Link } from "react-router-dom";
 import { IoIosChatboxes } from "react-icons/io";
 import {
@@ -9,12 +8,20 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
+// Screenshots
+import laxact from "../assets/screenshots/laxact-streaming.jpg";
+import mealdb from "../assets/screenshots/mealdb.jpg";
+import bookstore from "../assets/screenshots/bookstore.jpg";
+import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
+import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
+import bookadoctor from "../assets/screenshots/book-a-doctor.jpg";
+
 function MyProjects() {
   const [projects] = useState([
     {
       id: 1,
       title: "Book A Doctor",
-      image: project1,
+      image: bookadoctor,
       details:
         "An application, with both frontend and backend components, enabling users to schedule appointments with doctors. Access necessitates user sign-up or sign-in through provided forms.",
       releaseDate: "15 December 2023",
@@ -25,7 +32,7 @@ function MyProjects() {
     {
       id: 2,
       title: "Mini World Atlas",
-      image: project1,
+      image: worldatlas,
       details:
         "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
       releaseDate: "6 September 2023",
@@ -36,7 +43,7 @@ function MyProjects() {
     {
       id: 3,
       title: "SmartPocket Budget",
-      image: project1,
+      image: smartpocket,
       details:
         "SmartPocket Budget, a budgeting app, monitors expenses across various categories.",
       releaseDate: "24 November 2023",
@@ -47,7 +54,7 @@ function MyProjects() {
     {
       id: 4,
       title: "Bookstore CMS",
-      image: project1,
+      image: bookstore,
       details:
         "A single-page application enabling users to browse and buy books, featuring a navbar and footer for seamless app navigation.",
       releaseDate: "25 August 2023",
@@ -57,8 +64,8 @@ function MyProjects() {
     },
     {
       id: 5,
-      title: "Capstone MealDB",
-      image: project1,
+      title: "MealDB Restuarant",
+      image: mealdb,
       details:
         "A simple web app utilizing an external API for exact name matching and an Involvement API to capture user interactions such as likes and comments.",
       releaseDate: "4 August 2023",
@@ -69,7 +76,7 @@ function MyProjects() {
     {
       id: 6,
       title: "LaxAct Streaming Conference 2023",
-      image: project1,
+      image: laxact,
       details:
         "A website that announced for the TV streaming conference organized by laxACT Ltd, which as held on July 2023 at Crest Towers, Diego Garcia, BIOT.",
       releaseDate: "1 July 2023",
