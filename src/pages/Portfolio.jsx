@@ -49,7 +49,7 @@ function MyProjects() {
       title: "Bookstore CMS",
       image: project1,
       details:
-        "The Bookstore CMS React App is a single-page application that allows users to browse and purchase books. It is built using the React JavaScript library and features a navbar and footer that provide navigation throughout the app.",
+        "A single-page application enabling users to browse and buy books, featuring a navbar and footer for seamless app navigation.",
       releaseDate: "25 August 2023",
       techStack: "ReactJS, Redux, JavaScript, API",
       live: "https://brilliant-vacherin-c698ee.netlify.app/",
@@ -60,7 +60,7 @@ function MyProjects() {
       title: "Capstone MealDB",
       image: project1,
       details:
-        "This Capstone Project is built on MealDB, an external API, and an Involvement API which is used to record the user interactions including likes, and comments. The external API service used is called MealAPI. MealDB is a crowd-sourced database of recipes from around the world. It was created in 2008 by two developers in the UK, and it has since grown to include over 29,000 recipes from over 100 countries.",
+        "A simple web app utilizing an external API for exact name matching and an Involvement API to capture user interactions such as likes and comments.",
       releaseDate: "4 August 2023",
       techStack: "HTML5, CSS3, JavaScript, API",
       live: "https://astonishing-mermaid-7b5d60.netlify.app/dist/",
