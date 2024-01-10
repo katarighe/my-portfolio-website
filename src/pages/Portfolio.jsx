@@ -142,9 +142,9 @@ function MyProjects() {
         backgroundImage="src/assets/background/my-projects-background.jpg"
       />
       <div className="flex flex-col justify-center items-center px-10 gap-10 mt-10 md:flex-row">
-        <p className="text-newDarkGray text-lg font-robotoOriginal">
+        <p className="text-newDarkGray text-xl font-robotoOriginal">
           My portfolio showcases over 15 projects developed using robust
-          technology stacks, including HTML5/CSS3, JavaScript, React/Redux, API,
+          technology stacks, <br /> including HTML5/CSS3, JavaScript, React/Redux, API,
           Ruby, and Ruby on Rails.
         </p>
       </div>
