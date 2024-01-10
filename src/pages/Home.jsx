@@ -10,6 +10,7 @@ import {
   SiReact,
   SiRedux,
   SiRuby,
+  SiRubyonrails,
   SiTailwindcss,
   SiBootstrap,
   SiJquery,
@@ -28,22 +29,23 @@ import project1 from "../assets/background/background-project.jpg";
 
 function Home() {
   const skills = [
-    { name: "HTML", icon: <FaHtml5 />, color: "text-[#E44D26]" },
+    { name: "HTML", icon: <FaHtml5 />, color: "text-orange-400" },
     { name: "CSS", icon: <FaCss3 />, color: "text-blue-600" },
     { name: "JavaScript", icon: <SiJavascript />, color: "text-yellow-400" },
-    { name: "React", icon: <SiReact />, color: "text-red-400" },
-    { name: "Redux", icon: <SiRedux />, color: "text-red-400" },
-    { name: "Ruby", icon: <SiRuby />, color: "text-red-400" },
+    { name: "React", icon: <SiReact />, color: "text-blue-300" },
+    { name: "Redux", icon: <SiRedux />, color: "text-purple-400" },
+    { name: "Ruby", icon: <SiRuby />, color: "text-red-700" },
+    { name: "Rails", icon: <SiRubyonrails />, color: "text-red-700" },
     { name: "NodeJS", icon: <SiNodedotjs />, color: "text-[#539E43]" },
-    { name: "PostgreSQL ", icon: <SiPostgresql />, color: "text-blue-500" },
-    { name: "Chrome", icon: <FaChrome />, color: "text-yellow-500" },
+    { name: "PostgreSQL ", icon: <SiPostgresql />, color: "text-blue-800" },
+    { name: "Chrome", icon: <FaChrome />, color: "text-green-600" },
     { name: "VS Code", icon: <TbBrandVscode />, color: "text-blue-500" },
-    { name: "Git", icon: <FaGitAlt />, color: "text-[#DE4C36]" },
+    { name: "Git", icon: <FaGitAlt />, color: "text-red-700" },
     { name: "GitHub", icon: <SiGithub />, color: "text-black" },
     { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "text-blue-400" },
     { name: "Bootstrap", icon: <SiBootstrap />, color: "text-purple-600" },
-    { name: "jQuery", icon: <SiJquery />, color: "text-blue-400" },
-    { name: "Angular", icon: <SiAngular />, color: "text-red-600" },
+    { name: "jQuery", icon: <SiJquery />, color: "text-blue-800" },
+    { name: "Angular", icon: <SiAngular />, color: "text-red-700" },
   ];
 
   const [projects] = useState([
