@@ -73,7 +73,7 @@ function MyProjects() {
       details:
         "A website that announced for the TV streaming conference organized by laxACT Ltd, which as held on July 2023 at Crest Towers, Diego Garcia, BIOT.",
       releaseDate: "1 July 2023",
-      techStack: "HTML, CSS, JavaScript, Bootstrap",
+      techStack: "HTML5, CSS3, JavaScript, Bootstrap",
       live: "https://katarighe.github.io/microverse-capstone-project-1/",
       source: "https://github.com/katarighe/microverse-capstone-project-1",
     },
