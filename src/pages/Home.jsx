@@ -24,7 +24,6 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
-
 // Templates & Screenshots
 import Hero from "../components/Hero";
 import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
@@ -156,7 +155,7 @@ function Home() {
             <img
               src="src/assets/logo/background-project.jpg"
               alt="About Me"
-              className="mr-3 max-w-[15rem] max-h-[15rem] object-right md:float-right md:object rounded-2xl"
+              className="mr-3 max-w-[15rem] max-h-[15rem] object-right md:float-right md:object rounded-full"
             />
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
               About Me
@@ -227,11 +226,16 @@ function Home() {
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
               <div className="" key={item.id} onClick={() => openModal(index)}>
-                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-black shadow-lg">
-                  <img src={item.image} alt={item.title} className="w-full" />
+                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-red-500 shadow-lg">
+                  <img
+                    src={item.image}
+                    style={{ opacity: 0.5 }}
+                    alt={item.title}
+                    className="w-full"
+                  />
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
-                      <div className="m-6 text-black">
+                      <div className="m-6 text-white">
                         <h5
                           className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-white"
                           onClick={() => openModal(index)}

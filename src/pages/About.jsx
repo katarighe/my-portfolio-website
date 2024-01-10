@@ -122,7 +122,7 @@ function AboutMe() {
             <img
               src="src/assets/logo/background-project.jpg"
               alt="About Me"
-              className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-2xl"
+              className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full"
             />
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal">

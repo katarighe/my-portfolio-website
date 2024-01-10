@@ -160,8 +160,8 @@ function MyProjects() {
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
               <div className="" key={item.id} onClick={() => openModal(index)}>
-                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-black shadow-lg ">
-                  <img src={item.image} alt={item.title} className="w-full" />
+                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-red-500 shadow-lg ">
+                  <img src={item.image} style={{ opacity: 0.5 }} alt={item.title} className="w-full" />
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
                       <div className="m-6 text-white">
