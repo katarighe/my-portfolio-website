@@ -8,13 +8,14 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
-// Screenshots
+// Screenshots & Templates
 import laxact from "../assets/screenshots/laxact-streaming.jpg";
 import mealdb from "../assets/screenshots/mealdb.jpg";
 import bookstore from "../assets/screenshots/bookstore.jpg";
 import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
 import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
 import bookadoctor from "../assets/screenshots/book-a-doctor.jpg";
+import '../assets/styles/animations.css';
 
 function MyProjects() {
   const [projects] = useState([
@@ -148,10 +149,10 @@ function MyProjects() {
         details="Projects Crafted with Care"
         backgroundImage="src/assets/background/my-projects-background.jpg"
       />
-      <div className="flex flex-col justify-center items-center px-10 gap-10 mt-10 md:flex-row">
+      <div className="flex flex-col justify-center items-center px-10 gap-10 mt-10 md:flex-row mx-auto animate__animated animate__fadeInDown">
         <p className="text-newDarkGray text-xl font-robotoOriginal">
           My portfolio showcases over 15 projects developed using robust
-          technology stacks, <br /> including HTML5/CSS3, JavaScript, React/Redux, API,
+          technology stacks, including HTML5/CSS3, JavaScript, React/Redux, API,
           Ruby, and Ruby on Rails.
         </p>
       </div>
@@ -159,8 +160,8 @@ function MyProjects() {
         <div className="container py-10 md:py-15">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
-              <div className="" key={item.id} onClick={() => openModal(index)}>
-                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-red-500 shadow-lg ">
+              <div className="animate__animated animate__fadeInRight" key={item.id} onClick={() => openModal(index)}>
+                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-red-500 shadow-lg">
                   <img src={item.image} style={{ opacity: 0.5 }} alt={item.title} className="w-full" />
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
@@ -208,7 +209,7 @@ function MyProjects() {
           </div>
           {/* Modal Popup */}
           {selectedProjectIndex !== null && (
-            <div className="fixed inset-0 grid place-items-center z-50 max-h-full bg-black bg-opacity-75 overflow-y-scroll">
+            <div className="fixed inset-0 grid place-items-center z-50 max-h-full bg-black bg-opacity-75 overflow-y-scroll animate__animated animate__fadeIn">
               <div className="max-w-7xl bg-white dark:bg-neutral rounded-lg m-5">
                 <article className="grid grid-cols-1 gap-5 md:grid-cols-2">
                   <figure className="bg-black">
@@ -285,7 +286,7 @@ function MyProjects() {
               </div>
             </div>
           )}
-          <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
+          <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row animate__animated animate__fadeInUp">
             <p className="text-newDarkGray text-lg font-robotoOriginal">
               I can assist you in building a product, feature, or website. Take
               a look at some of my recent projects!
