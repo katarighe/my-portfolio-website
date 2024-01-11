@@ -7,12 +7,12 @@ import {
   CodeBracketIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import laxact from "../assets/screenshots/laxact-streaming.jpg";
-import mealdb from "../assets/screenshots/mealdb.jpg";
-import bookstore from "../assets/screenshots/bookstore.jpg";
-import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
-import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
-import bookadoctor from "../assets/screenshots/book-a-doctor.jpg";
+import laxact from "../assets/laxact-streaming.JPG";
+import mealdb from "../assets/mealdb.JPG";
+import bookstore from "../assets/bookstore.JPG";
+import smartpocket from "../assets/smartpocket-budget.JPG";
+import worldatlas from "../assets/mini-world-atlas.JPG";
+import bookadoctor from "../assets/book-a-doctor.JPG";
 
 function MyProjects() {
   const [projects] = useState([
@@ -144,7 +144,7 @@ function MyProjects() {
       <Hero
         name="Portfolio"
         details="Projects Crafted with Care"
-        backgroundImage="src/assets/background/my-projects-background.jpg"
+        backgroundImage="src/assets/my-projects-background.jpg"
       />
       <div className="flex flex-col justify-center items-center px-10 gap-10 mt-10 md:flex-row mx-auto animate__animated animate__fadeInDown">
         <p className="text-xl font-robotoOriginal">

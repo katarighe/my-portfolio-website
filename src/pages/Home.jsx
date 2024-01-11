@@ -25,9 +25,9 @@ import {
 } from "@heroicons/react/24/outline";
 import Hero from "../components/Hero";
 import "animate.css/animate.min.css";
-import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
-import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
-import bookadoctor from "../assets/screenshots/book-a-doctor.jpg";
+import smartpocket from "../assets/smartpocket-budget.JPG";
+import worldatlas from "../assets/mini-world-atlas.JPG";
+import bookadoctor from "../assets/book-a-doctor.JPG";
 
 function Home() {
   const skills = [
@@ -146,7 +146,7 @@ function Home() {
       <Hero
         name="Mohamed Aden Ighe"
         details="Full Stack Web Developer"
-        backgroundImage="src/assets/background/coding-background.jpg"
+        backgroundImage="src/assets/coding-background.jpg"
       />
       <section className="text-black">
         <div className="container space-y-10 py-16">
