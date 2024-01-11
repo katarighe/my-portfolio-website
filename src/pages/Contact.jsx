@@ -1,5 +1,7 @@
 import Hero from "../components/Hero";
 import { IoIosChatboxes } from "react-icons/io";
+import '../assets/styles/animations.css';
+import "animate.css/animate.min.css";
 
 function Contact() {
   return (
@@ -11,7 +13,7 @@ function Contact() {
       />
       <section className="py-20">
         <div className="container">
-          <h2 className="font-bold text-2xl mb-1 font-robotoOriginal">
+          <h2 className="font-bold text-2xl mb-1 font-robotoOriginal animate__animated animate__slideInDown">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I&apos;d
             love to help with it.
@@ -67,7 +69,7 @@ function Contact() {
             <div className="flex justify-center items-center mt-16 md:mt-10 md:flex-row">
               <button
                 type="submit"
-                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300 animate__animated animate__slideInUp"
               >
                 <IoIosChatboxes className="text-2xl" />
                 GET IN TOUCH
