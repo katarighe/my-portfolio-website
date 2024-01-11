@@ -211,7 +211,7 @@ function Home() {
             <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
               <Link
                 to="/about"
-                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300 animate__animated animate__fadeInUp"
+                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-violet-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300 animate__animated animate__fadeInUp"
               >
                 <IoIosAdd className="text-xl" />
                 SEE MORE
@@ -361,7 +361,7 @@ function Home() {
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/portfolio"
-              className="animate__animated animate__fadeInUp p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="animate__animated animate__fadeInUp p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-violet-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosAdd className="text-xl" />
               SEE MORE
