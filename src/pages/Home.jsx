@@ -159,7 +159,7 @@ function Home() {
               alt="About Me"
               className="mr-3 max-w-[15rem] max-h-[15rem] object-right md:float-right md:object rounded-full"
             />
-            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
+            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInDown">
               About Me
             </h3>
             <p className="text-base font-robotoOriginal">
@@ -191,11 +191,11 @@ function Home() {
               as a professional full-stack developer.
             </p>
           </article>
-          <article className="max-w-[35rem] mx-auto animate__animated animate__slideInUp">
-            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
+          <article className="max-w-[35rem] mx-auto">
+            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed animate__animated animate__slideInDown">
               My Skills
             </h3>
-            <ul className="flex flex-wrap gap-5 justify-start items-center text-white">
+            <ul className="flex flex-wrap gap-5 justify-start items-center text-white animate__animated animate__slideInRight">
               {skills.map((tool, index) => (
                 <li
                   key={index}
@@ -211,7 +211,7 @@ function Home() {
             <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
               <Link
                 to="/about"
-                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300 animate__animated animate__fadeInUp"
               >
                 <IoIosAdd className="text-xl" />
                 SEE MORE
@@ -220,14 +220,14 @@ function Home() {
           </article>
         </div>
         <article className="max-w-[35rem] mx-auto animate__animated animate__fadeIn">
-          <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
+          <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed animate__animated animate__slideInDown">
             My Portfolio
           </h3>
         </article>
         <div className="container py-5 md:py-16">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
-              <div className="animate__animated animate__fadeIn" key={item.id} onClick={() => openModal(index)}>
+              <div className="animate__animated animate__fadeInRight" key={item.id} onClick={() => openModal(index)}>
                 <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-red-500 shadow-lg">
                   <img
                     src={item.image}
@@ -361,7 +361,7 @@ function Home() {
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/portfolio"
-              className="animate__animated animate__fadeIn p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="animate__animated animate__fadeInUp p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosAdd className="text-xl" />
               SEE MORE
