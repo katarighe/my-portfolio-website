@@ -65,7 +65,7 @@ function MyProjects() {
     },
     {
       id: 5,
-      title: "MealDB Restuarant",
+      title: "MealDB Restaurant",
       image: mealdb,
       details:
         "A simple web app utilizing an external API for exact name matching and an Involvement API to capture user interactions such as likes and comments.",
@@ -161,13 +161,13 @@ function MyProjects() {
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
               <div className="animate__animated animate__fadeInRight" key={item.id} onClick={() => openModal(index)}>
-                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-violet-500 shadow-lg">
+                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-gray-500 shadow-lg">
                   <img src={item.image} style={{ opacity: 0.3 }} alt={item.title} className="w-full" />
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
-                      <div className="m-6 text-black">
+                      <div className="m-6 text-white">
                         <h5
-                          className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-violet-600"
+                          className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-black"
                           onClick={() => openModal(index)}
                         >
                           {item.title}
@@ -175,7 +175,7 @@ function MyProjects() {
                         {techStackToArray(item.techStack).map((tech, index) => (
                           <span
                             key={index}
-                            className="mr-2 my-1 border-2 badge border-newbBlue badge-outline text-newbBlue font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
+                            className="mr-2 my-1 border-2 badge border-violet-500 badge-outline font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
                           >
                             {tech}
                           </span>
@@ -185,7 +185,7 @@ function MyProjects() {
                             href={item.source}
                             rel="noreferrer"
                             target="_blank"
-                            className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                            className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                           >
                             <CodeBracketIcon className="w-4" />
                             Source Code
@@ -194,7 +194,7 @@ function MyProjects() {
                             href={item.live}
                             rel="noreferrer"
                             target="_blank"
-                            className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                            className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                           >
                             <EyeIcon className="w-4" />
                             Live Preview
@@ -226,7 +226,7 @@ function MyProjects() {
                         onClick={closeModal}
                       />
                     </div>
-                    <h2 className="text-2xl font-bold font-robotoCondensed">
+                    <h2 className="text-4xl font-bold font-robotoCondensed">
                       {selectedProject.title}
                     </h2>
                     <p className="mt-4 font-robotoOriginal">
@@ -240,7 +240,7 @@ function MyProjects() {
                         (tech, index) => (
                           <span
                             key={index}
-                            className="mr-2 my-1 border-2 badge badge-outline font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
+                            className="mr-2 my-1 border-2 badge badge-outline border-violet-500 font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
                           >
                             {tech}
                           </span>
@@ -252,7 +252,7 @@ function MyProjects() {
                         href={selectedProject.source}
                         rel="noreferrer"
                         target="_blank"
-                        className="font-bold flex gap-1 hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                       >
                         <CodeBracketIcon className="w-4" />
                         Source Code
@@ -261,7 +261,7 @@ function MyProjects() {
                         href={selectedProject.live}
                         rel="noreferrer"
                         target="_blank"
-                        className="text-newDarkGray font-bold flex gap-1 dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                       >
                         <EyeIcon className="w-4" />
                         Live Preview
@@ -270,13 +270,13 @@ function MyProjects() {
                     <div className="flex justify-between mt-6 relative top-0">
                       <button
                         onClick={prevProject}
-                        className="text-newDarkGray text-lg font-semibold dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                        className="text-black text-lg font-semibold dark:text-white hover:text-violet-500 font-robotoCondensed hover:scale-110 transition-transform duration-300"
                       >
                         Previous
                       </button>
                       <button
                         onClick={nextProject}
-                        className="text-newDarkGray text-lg font-semibold dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                        className="text-black text-lg font-semibold dark:text-white hover:text-violet-500 font-robotoCondensed hover:scale-110 transition-transform duration-300"
                       >
                         Next
                       </button>
@@ -297,7 +297,7 @@ function MyProjects() {
             </p>
             <Link
               to="/contact"
-              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="p-3 px-8 text-black bg-gradient-to-r from-blue-500 to-violet-600 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosChatboxes className="text-2xl" />
               CONTACT
