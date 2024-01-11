@@ -26,6 +26,8 @@ import {
 
 // Templates & Screenshots
 import Hero from "../components/Hero";
+import '../assets/styles/Home.css';
+import "animate.css/animate.min.css";
 import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
 import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
 import bookadoctor from "../assets/screenshots/book-a-doctor.jpg";
@@ -151,7 +153,7 @@ function Home() {
       />
       <section className="text-black">
         <div className="container space-y-10 py-16">
-          <article className="max-w-[35rem] mx-auto">
+          <article className="max-w-[35rem] mx-auto animate__animated animate__fadeIn">
             <img
               src="src/assets/logo/background-project.jpg"
               alt="About Me"
@@ -189,7 +191,7 @@ function Home() {
               as a professional full-stack developer.
             </p>
           </article>
-          <article className="max-w-[35rem] mx-auto">
+          <article className="max-w-[35rem] mx-auto animate__animated animate__slideInUp">
             <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
               My Skills
             </h3>
@@ -217,7 +219,7 @@ function Home() {
             </div>
           </article>
         </div>
-        <article className="max-w-[35rem] mx-auto">
+        <article className="max-w-[35rem] mx-auto animate__animated animate__fadeIn">
           <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
             My Portfolio
           </h3>
@@ -225,7 +227,7 @@ function Home() {
         <div className="container py-5 md:py-16">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
-              <div className="" key={item.id} onClick={() => openModal(index)}>
+              <div className="animate__animated animate__fadeIn" key={item.id} onClick={() => openModal(index)}>
                 <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-red-500 shadow-lg">
                   <img
                     src={item.image}
@@ -279,7 +281,7 @@ function Home() {
           </div>
           {/* Modal Popup */}
           {selectedProjectIndex !== null && (
-            <div className="fixed inset-0 grid place-items-center z-50 max-h-full bg-black bg-opacity-75 overflow-y-scroll">
+            <div className="fixed inset-0 grid place-items-center z-50 max-h-full bg-black bg-opacity-75 overflow-y-scroll animate__animated animate__fadeIn">
               <div className="max-w-7xl bg-white dark:bg-neutral rounded-lg m-5">
                 <article className="grid grid-cols-1 gap-5 md:grid-cols-2">
                   <figure className="bg-black">
@@ -359,7 +361,7 @@ function Home() {
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/portfolio"
-              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="animate__animated animate__fadeIn p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosAdd className="text-xl" />
               SEE MORE
