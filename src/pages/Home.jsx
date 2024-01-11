@@ -26,7 +26,7 @@ import {
 
 // Templates & Screenshots
 import Hero from "../components/Hero";
-import '../assets/styles/animations.css';
+import "../assets/styles/animations.css";
 import "animate.css/animate.min.css";
 import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
 import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
@@ -70,7 +70,7 @@ function Home() {
       title: "Mini World Atlas",
       image: worldatlas,
       details:
-        "Mobile web app enabling users to view numeric metrics from the REST countries API, providing information about various countries.",
+        "A mobile web app enabling users to view numeric metrics from the REST countries API, providing information about various countries.",
       releaseDate: "6 September 2023",
       techStack: "ReactJS, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
@@ -81,7 +81,7 @@ function Home() {
       title: "SmartPocket Budget",
       image: smartpocket,
       details:
-        "SmartPocket Budget, a budgeting app, monitors expenses across various categories.",
+        "A budgeting app that monitors expenses across various categories.",
       releaseDate: "24 November 2023",
       techStack: "Ruby, Rails, PostgreSQL",
       live: "https://moyen-budget.onrender.com/",
@@ -163,13 +163,12 @@ function Home() {
               About Me
             </h3>
             <p className="text-base font-robotoOriginal">
-              I am a devoted full-stack web developer with over 2 years of
-              hands-on experience in diverse roles. I have the expertise to
-              support you in constructing projects, implementing features, or
-              developing websites, as well as assisting startups in bringing
-              their products from concept to launch. Please feel free to explore
-              my portfolio for a deeper understanding of my professional
-              journey. <br />
+              I am a full-stack web developer with over 2 years of hands-on
+              experience in diverse roles. I have the expertise to support you
+              in constructing projects, implementing features, or developing
+              websites, as well as assisting startups in bringing their products
+              from concept to launch. Please feel free to explore my portfolio
+              for a deeper understanding of my professional journey. <br />
               <br />
               If you come across something you like or have a specific project
               that requires attention, don&apos;t hesitate to reach out to me. I
@@ -211,7 +210,7 @@ function Home() {
             <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
               <Link
                 to="/about"
-                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-violet-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300 animate__animated animate__fadeInUp"
+                className="p-3 px-8 text-black bg-gradient-to-r from-blue-500 to-violet-600 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
               >
                 <IoIosAdd className="text-xl" />
                 SEE MORE
@@ -227,8 +226,12 @@ function Home() {
         <div className="container py-5 md:py-16">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
-              <div className="animate__animated animate__fadeInRight" key={item.id} onClick={() => openModal(index)}>
-                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-violet-500 shadow-lg">
+              <div
+                className="animate__animated animate__fadeInRight"
+                key={item.id}
+                onClick={() => openModal(index)}
+              >
+                <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-gray-500 shadow-lg">
                   <img
                     src={item.image}
                     style={{ opacity: 0.5 }}
@@ -237,9 +240,9 @@ function Home() {
                   />
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
-                      <div className="m-6 text-black">
+                      <div className="m-6 text-white">
                         <h5
-                          className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-white"
+                          className="mb-3 text-4xl font-bold font-robotoCondensed hover:text-black"
                           onClick={() => openModal(index)}
                         >
                           {item.title}
@@ -247,7 +250,7 @@ function Home() {
                         {techStackToArray(item.techStack).map((tech, index) => (
                           <span
                             key={index}
-                            className="mr-2 my-1 border-2 badge border-newbBlue badge-outline text-newbBlue font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
+                            className="mr-2 my-1 border-2 badge border-violet-500 badge-outline font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
                           >
                             {tech}
                           </span>
@@ -257,7 +260,7 @@ function Home() {
                             href={item.source}
                             rel="noreferrer"
                             target="_blank"
-                            className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                            className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                           >
                             <CodeBracketIcon className="w-4" />
                             Source Code
@@ -266,7 +269,7 @@ function Home() {
                             href={item.live}
                             rel="noreferrer"
                             target="_blank"
-                            className="text-newDarkGray font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                            className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                           >
                             <EyeIcon className="w-4" />
                             Live Preview
@@ -298,7 +301,7 @@ function Home() {
                         onClick={closeModal}
                       />
                     </div>
-                    <h2 className="text-2xl font-bold font-robotoCondensed">
+                    <h2 className="text-4xl font-bold font-robotoCondensed">
                       {selectedProject.title}
                     </h2>
                     <p className="mt-4 font-robotoOriginal">
@@ -312,7 +315,7 @@ function Home() {
                         (tech, index) => (
                           <span
                             key={index}
-                            className="mr-2 my-1 border-2 badge badge-outline font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
+                            className="mr-2 my-1 border-2 badge badge-outline border-violet-500 font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
                           >
                             {tech}
                           </span>
@@ -324,7 +327,7 @@ function Home() {
                         href={selectedProject.source}
                         rel="noreferrer"
                         target="_blank"
-                        className="font-bold flex gap-1 hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                       >
                         <CodeBracketIcon className="w-4" />
                         Source Code
@@ -333,7 +336,7 @@ function Home() {
                         href={selectedProject.live}
                         rel="noreferrer"
                         target="_blank"
-                        className="text-newDarkGray font-bold flex gap-1 dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-blue-500 hover:bg-blue-900 text-white py-2 px-4 rounded-full"
+                        className="font-bold flex gap-1 dark:text-white dark:hover:text-black font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                       >
                         <EyeIcon className="w-4" />
                         Live Preview
@@ -342,13 +345,13 @@ function Home() {
                     <div className="flex justify-between mt-6 relative top-0">
                       <button
                         onClick={prevProject}
-                        className="text-newDarkGray text-lg font-semibold dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                        className="text-black text-lg font-semibold dark:text-white hover:text-violet-500 font-robotoCondensed hover:scale-110 transition-transform duration-300"
                       >
                         Previous
                       </button>
                       <button
                         onClick={nextProject}
-                        className="text-newDarkGray text-lg font-semibold dark:text-white hover:text-newYellow dark:hover:text-newYellow font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                        className="text-black text-lg font-semibold dark:text-white hover:text-violet-500 font-robotoCondensed hover:scale-110 transition-transform duration-300"
                       >
                         Next
                       </button>
@@ -361,7 +364,7 @@ function Home() {
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/portfolio"
-              className="animate__animated animate__fadeInUp p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-violet-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="p-3 px-8 text-black bg-gradient-to-r from-blue-500 to-violet-600 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosAdd className="text-xl" />
               SEE MORE
