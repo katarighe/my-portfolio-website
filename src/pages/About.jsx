@@ -32,7 +32,11 @@ import {
 } from "react-icons/si";
 import { SocialIcon } from "react-social-icons";
 import { ReactSocialMediaIcons } from "react-social-media-icons";
+
+// Templates
 import Hero from "../components/Hero";
+import "../assets/styles/animations.css";
+import "animate.css/animate.min.css";
 
 function AboutMe() {
   const [activeTab, setActiveTab] = useState("all");
@@ -116,7 +120,7 @@ function AboutMe() {
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[45rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
+            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInRight">
               Introduction
             </h3>
             <img
@@ -125,7 +129,7 @@ function AboutMe() {
               className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full"
             />
             <br />
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
+            <p className="text-base whitespace-break-spaces font-robotoOriginal animate__animated animate__fadeIn">
               Greetings, I&apos;m Mohamed,
               <br />
               <br />
@@ -182,7 +186,7 @@ function AboutMe() {
             </div>
           </article>
           <article className="max-w-[45rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
+            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed animate__animated animate__slideInRight">
               My Skills
             </h3>
             <motion.div
@@ -381,7 +385,7 @@ function AboutMe() {
             </article>
           </article>
           <article className="max-w-[45rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
+            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInRight">
               Connect with me
             </h3>
             <br />
@@ -517,21 +521,21 @@ function AboutMe() {
               </table>
             </div>
             <br />
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
+            <p className="text-base whitespace-break-spaces font-robotoOriginal animate__animated animate__fadeIn">
               Please feel free to explore the diverse social media channels and
               other portals. Let&apos;s establish a community where ideas flow,
               knowledge grows, and connections flourish. I am excited to hear
               from you and embark on this journey together!
             </p>
             <br />
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
+            <p className="text-base whitespace-break-spaces font-robotoOriginal animate__animated animate__fadeIn">
               You can also contact me directly by clicking the button below.
             </p>
           </article>
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/contact"
-              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300 animate__animated animate__slideInUp"
             >
               <IoIosChatboxes className="text-2xl" />
               CONTACT ME
