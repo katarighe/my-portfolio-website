@@ -35,7 +35,7 @@ function MyProjects() {
       title: "Mini World Atlas",
       image: worldatlas,
       details:
-        "A mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API. The API that was selected is called REST countries, where you can get information about countries via a RESTful API.",
+        "A mobile web app enabling users to view numeric metrics from the REST countries API, providing information about various countries.",
       releaseDate: "6 September 2023",
       techStack: "ReactJS, Redux, API",
       live: "https://benevolent-crostata-5c4bea.netlify.app/",
@@ -46,7 +46,7 @@ function MyProjects() {
       title: "SmartPocket Budget",
       image: smartpocket,
       details:
-        "SmartPocket Budget, a budgeting app, monitors expenses across various categories.",
+        "A budgeting app that monitors expenses across various categories.",
       releaseDate: "24 November 2023",
       techStack: "Ruby, Rails, PostgreSQL",
       live: "https://moyen-budget.onrender.com/",
