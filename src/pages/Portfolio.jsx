@@ -15,7 +15,7 @@ import bookstore from "../assets/screenshots/bookstore.jpg";
 import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
 import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
 import bookadoctor from "../assets/screenshots/book-a-doctor.jpg";
-import '../assets/styles/animations.css';
+import "../assets/styles/animations.css";
 
 function MyProjects() {
   const [projects] = useState([
@@ -79,7 +79,7 @@ function MyProjects() {
       title: "LaxAct Streaming Conference 2023",
       image: laxact,
       details:
-        "A website that announced for the TV streaming conference organized by laxACT Ltd, which as held on July 2023 at Crest Towers, Diego Garcia, BIOT.",
+        "A website that announced for the TV streaming conference organized by laxACT Ltd, which as held on July 2023 at Crest Towers, Diego Garcia, BIOT. The website is designed to provide attendees with essential details about the summit, including schedules, speakers, venue information, registration, and more.",
       releaseDate: "1 July 2023",
       techStack: "HTML5, CSS3, JavaScript, Bootstrap",
       live: "https://katarighe.github.io/microverse-capstone-project-1/",
@@ -160,9 +160,18 @@ function MyProjects() {
         <div className="container py-10 md:py-15">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {sortedProjects.map((item, index) => (
-              <div className="animate__animated animate__fadeInRight" key={item.id} onClick={() => openModal(index)}>
+              <div
+                className="animate__animated animate__fadeInRight"
+                key={item.id}
+                onClick={() => openModal(index)}
+              >
                 <div className="relative mb-6 overflow-hidden bg-cover bg-no-repeat bg-gray-500 shadow-lg">
-                  <img src={item.image} style={{ opacity: 0.3 }} alt={item.title} className="w-full" />
+                  <img
+                    src={item.image}
+                    style={{ opacity: 0.3 }}
+                    alt={item.title}
+                    className="w-full"
+                  />
                   <div className="absolute inset-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out bg-[hsla(0,0%,99%,0.15)]">
                     <div className="flex h-full items-start justify-start">
                       <div className="m-6 text-white">
@@ -182,22 +191,22 @@ function MyProjects() {
                         ))}
                         <div className="mt-4 flex justify-start gap-5 self-end text-sm">
                           <a
-                            href={item.source}
-                            rel="noreferrer"
-                            target="_blank"
-                            className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
-                          >
-                            <CodeBracketIcon className="w-4" />
-                            Source Code
-                          </a>
-                          <a
                             href={item.live}
                             rel="noreferrer"
                             target="_blank"
                             className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                           >
                             <EyeIcon className="w-4" />
-                            Live Preview
+                            See Live
+                          </a>
+                          <a
+                            href={item.source}
+                            rel="noreferrer"
+                            target="_blank"
+                            className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
+                          >
+                            <CodeBracketIcon className="w-4" />
+                            See Source
                           </a>
                         </div>
                       </div>
@@ -249,22 +258,22 @@ function MyProjects() {
                     </div>
                     <div className="mt-4 flex justify-start gap-5 text-sm">
                       <a
-                        href={selectedProject.source}
-                        rel="noreferrer"
-                        target="_blank"
-                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-xl bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
-                      >
-                        <CodeBracketIcon className="w-4" />
-                        Source Code
-                      </a>
-                      <a
                         href={selectedProject.live}
                         rel="noreferrer"
                         target="_blank"
                         className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-xl bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                       >
                         <EyeIcon className="w-4" />
-                        Live Preview
+                        See Live
+                      </a>
+                      <a
+                        href={selectedProject.source}
+                        rel="noreferrer"
+                        target="_blank"
+                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-xl bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
+                      >
+                        <CodeBracketIcon className="w-4" />
+                        See Source
                       </a>
                     </div>
                     <div className="flex justify-between mt-6 relative top-0">

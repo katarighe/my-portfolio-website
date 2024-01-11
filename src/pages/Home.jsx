@@ -257,22 +257,22 @@ function Home() {
                         ))}
                         <div className="mt-4 flex justify-start gap-5 self-end text-sm ">
                           <a
-                            href={item.source}
-                            rel="noreferrer"
-                            target="_blank"
-                            className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
-                          >
-                            <CodeBracketIcon className="w-4" />
-                            Source Code
-                          </a>
-                          <a
                             href={item.live}
                             rel="noreferrer"
                             target="_blank"
                             className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                           >
                             <EyeIcon className="w-4" />
-                            Live Preview
+                            See Live
+                          </a>
+                          <a
+                            href={item.source}
+                            rel="noreferrer"
+                            target="_blank"
+                            className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
+                          >
+                            <CodeBracketIcon className="w-4" />
+                            See Source
                           </a>
                         </div>
                       </div>
@@ -324,22 +324,22 @@ function Home() {
                     </div>
                     <div className="mt-4 flex justify-start gap-5 text-sm">
                       <a
-                        href={selectedProject.source}
-                        rel="noreferrer"
-                        target="_blank"
-                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-xl bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
-                      >
-                        <CodeBracketIcon className="w-4" />
-                        Source Code
-                      </a>
-                      <a
                         href={selectedProject.live}
                         rel="noreferrer"
                         target="_blank"
                         className="font-bold flex gap-1 dark:text-white dark:hover:text-black font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                       >
                         <EyeIcon className="w-4" />
-                        Live Preview
+                        See Live
+                      </a>
+                      <a
+                        href={selectedProject.source}
+                        rel="noreferrer"
+                        target="_blank"
+                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-xl bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
+                      >
+                        <CodeBracketIcon className="w-4" />
+                        See Source
                       </a>
                     </div>
                     <div className="flex justify-between mt-6 relative top-0">
