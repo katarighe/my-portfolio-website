@@ -152,7 +152,7 @@ function Home() {
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto animate__animated animate__fadeIn">
             <img
-              src="src/assets/logo/background-project.jpg"
+              src="src/assets/background-project.jpg"
               alt="About Me"
               className="mr-3 max-w-[15rem] max-h-[15rem] object-right md:float-right md:object rounded-full"
             />
