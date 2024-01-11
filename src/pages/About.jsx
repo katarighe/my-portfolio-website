@@ -176,7 +176,7 @@ function AboutMe() {
             <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
               <a
                 href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
-                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                className="p-3 px-8 text-black bg-gradient-to-r from-blue-500 to-violet-600 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -203,8 +203,8 @@ function AboutMe() {
               <button
                 className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white ${
                   activeTab === "all"
-                    ? "bg-green-500 text-black  hover:bg-green-500"
-                    : "hover:text-black hover:bg-green-500"
+                    ? "bg-violet-500 text-white  hover:bg-violet-500"
+                    : "hover:text-white hover:bg-violet-500"
                 }`}
                 onClick={() => handleTabChange("all")}
               >
@@ -213,8 +213,8 @@ function AboutMe() {
               <button
                 className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
                   activeTab === "frontend"
-                    ? "bg-green-500 text-black  hover:bg-green-500"
-                    : "hover:text-black hover:bg-green-500"
+                    ? "bg-violet-500 text-white  hover:bg-violet-500"
+                    : "hover:text-white hover:bg-violet-500"
                 }`}
                 onClick={() => handleTabChange("frontend")}
               >
@@ -223,8 +223,8 @@ function AboutMe() {
               <button
                 className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
                   activeTab === "backend"
-                    ? "bg-green-500 text-black  hover:bg-green-500"
-                    : "hover:text-black  hover:bg-green-500"
+                    ? "bg-violet-500 text-white  hover:bg-violet-500"
+                    : "hover:text-white  hover:bg-violet-500"
                 }`}
                 onClick={() => handleTabChange("backend")}
               >
@@ -233,8 +233,8 @@ function AboutMe() {
               <button
                 className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white hover:bg-green-500 ${
                   activeTab === "tools"
-                    ? "bg-green-500 text-black hover:bg-green-500"
-                    : "hover:text-black"
+                    ? "bg-violet-500 text-white hover:bg-violet-500"
+                    : "hover:text-white hover:bg-violet-500"
                 }`}
                 onClick={() => handleTabChange("tools")}
               >
@@ -535,7 +535,7 @@ function AboutMe() {
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/contact"
-              className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300 animate__animated animate__slideInUp"
+              className="p-3 px-8 text-black bg-gradient-to-r from-blue-500 to-violet-600 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosChatboxes className="text-2xl" />
               CONTACT ME
