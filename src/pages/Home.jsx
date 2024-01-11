@@ -24,7 +24,6 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import Hero from "../components/Hero";
-import "../assets/styles/animations.css";
 import "animate.css/animate.min.css";
 import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
 import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";

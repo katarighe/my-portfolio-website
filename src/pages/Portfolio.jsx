@@ -13,7 +13,6 @@ import bookstore from "../assets/screenshots/bookstore.jpg";
 import smartpocket from "../assets/screenshots/smartpocket-budget.jpg";
 import worldatlas from "../assets/screenshots/mini-world-atlas.jpg";
 import bookadoctor from "../assets/screenshots/book-a-doctor.jpg";
-import "../assets/styles/animations.css";
 
 function MyProjects() {
   const [projects] = useState([

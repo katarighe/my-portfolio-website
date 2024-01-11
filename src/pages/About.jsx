@@ -33,7 +33,6 @@ import {
 import { SocialIcon } from "react-social-icons";
 import { ReactSocialMediaIcons } from "react-social-media-icons";
 import Hero from "../components/Hero";
-import "../assets/styles/animations.css";
 import "animate.css/animate.min.css";
 
 function AboutMe() {

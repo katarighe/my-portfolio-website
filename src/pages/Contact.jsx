@@ -1,6 +1,5 @@
 import Hero from "../components/Hero";
 import { IoIosChatboxes } from "react-icons/io";
-import '../assets/styles/animations.css';
 import "animate.css/animate.min.css";
 
 function Contact() {

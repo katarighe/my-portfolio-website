@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'
-import '../assets/styles/animations.css';
 import "animate.css/animate.min.css";
 
 function Hero({ name, details, backgroundImage }) {
