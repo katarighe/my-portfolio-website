@@ -21,7 +21,7 @@ function Contact() {
           <form
             action="https://formspree.io/f/mlekylyd"
             method="post"
-            className="mt-8"
+            className="mt-8 animate__animated animate__slideInRight"
           >
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-4">
               <label htmlFor="name" className="form-control w-full">
@@ -69,7 +69,7 @@ function Contact() {
             <div className="flex justify-center items-center mt-16 md:mt-10 md:flex-row">
               <button
                 type="submit"
-                className="p-3 px-8 text-black bg-gradient-to-r from-indigo-300 to-blue-400 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300 animate__animated animate__slideInUp"
+                className="p-3 px-8 text-black bg-gradient-to-r from-blue-500 to-violet-600 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
               >
                 <IoIosChatboxes className="text-2xl" />
                 GET IN TOUCH
