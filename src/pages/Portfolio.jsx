@@ -7,8 +7,6 @@ import {
   CodeBracketIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-
-// Screenshots & Templates
 import laxact from "../assets/screenshots/laxact-streaming.jpg";
 import mealdb from "../assets/screenshots/mealdb.jpg";
 import bookstore from "../assets/screenshots/bookstore.jpg";

@@ -23,8 +23,6 @@ import {
   CodeBracketIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-
-// Templates & Screenshots
 import Hero from "../components/Hero";
 import "../assets/styles/animations.css";
 import "animate.css/animate.min.css";
