@@ -167,7 +167,7 @@ function MyProjects() {
                     <div className="flex h-full items-start justify-start">
                       <div className="m-6 text-white">
                         <h5
-                          className="mb-3 text-2xl font-bold font-robotoCondensed hover:text-black"
+                          className="mb-3 text-4xl font-bold font-robotoCondensed hover:text-black"
                           onClick={() => openModal(index)}
                         >
                           {item.title}
@@ -175,7 +175,7 @@ function MyProjects() {
                         {techStackToArray(item.techStack).map((tech, index) => (
                           <span
                             key={index}
-                            className="mr-2 my-1 border-2 badge border-violet-500 badge-outline font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
+                            className="mr-2 my-1 border-2 badge border-violet-500 badge-outline text-lg font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
                           >
                             {tech}
                           </span>
@@ -229,10 +229,10 @@ function MyProjects() {
                     <h2 className="text-4xl font-bold font-robotoCondensed">
                       {selectedProject.title}
                     </h2>
-                    <p className="mt-4 font-robotoOriginal">
+                    <p className="mt-4 font-robotoOriginal text-lg">
                       {selectedProject.details}
                     </p>
-                    <p className="mt-4 font-semibold font-robotoOriginal">
+                    <p className="mt-4 font-semibold font-robotoOriginal text-lg">
                       Release Date: {selectedProject.releaseDate}
                     </p>
                     <div className="my-5">
@@ -240,7 +240,7 @@ function MyProjects() {
                         (tech, index) => (
                           <span
                             key={index}
-                            className="mr-2 my-1 border-2 badge badge-outline border-violet-500 font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
+                            className="mr-2 my-1 border-2 badge badge-outline border-violet-500 text-lg font-semibold font-robotoOriginal bg-gray-800 hover:bg-blue-700 text-white py-3 px-4 rounded-full"
                           >
                             {tech}
                           </span>
@@ -252,7 +252,7 @@ function MyProjects() {
                         href={selectedProject.source}
                         rel="noreferrer"
                         target="_blank"
-                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
+                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-xl bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                       >
                         <CodeBracketIcon className="w-4" />
                         Source Code
@@ -261,7 +261,7 @@ function MyProjects() {
                         href={selectedProject.live}
                         rel="noreferrer"
                         target="_blank"
-                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-lg bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
+                        className="font-bold flex gap-1 font-robotoCondensed hover:scale-110 transition-transform duration-300 text-xl bg-violet-500 hover:bg-violet-900 text-white py-2 px-4 rounded-full"
                       >
                         <EyeIcon className="w-4" />
                         Live Preview
@@ -270,13 +270,13 @@ function MyProjects() {
                     <div className="flex justify-between mt-6 relative top-0">
                       <button
                         onClick={prevProject}
-                        className="text-black text-lg font-semibold dark:text-white hover:text-violet-500 font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                        className="text-black text-2xl font-semibold dark:text-white hover:text-violet-500 font-robotoCondensed hover:scale-110 transition-transform duration-300"
                       >
                         Previous
                       </button>
                       <button
                         onClick={nextProject}
-                        className="text-black text-lg font-semibold dark:text-white hover:text-violet-500 font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                        className="text-black text-2xl font-semibold dark:text-white hover:text-violet-500 font-robotoCondensed hover:scale-110 transition-transform duration-300"
                       >
                         Next
                       </button>
