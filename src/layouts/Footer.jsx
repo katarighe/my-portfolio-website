@@ -1,6 +1,6 @@
 function Header() {
     return (
-      <header className="bg-gradient-to-r from-indigo-500 to-blue-500 text-white py-10">
+      <header className="bg-gradient-to-r from-indigo-600 to-violet-800 text-white py-10">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex-grow">
             <h1 className="text-2xl font-bold tracking-tight text-shadow-md font-robotoCondensed">

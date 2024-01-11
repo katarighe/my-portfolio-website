@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { IoIosChatboxes } from "react-icons/io";
+import { IoIosChatboxes, IoIosPaper } from "react-icons/io";
 import {
   FaReact,
   FaCss3,
@@ -33,9 +33,10 @@ import {
 import { SocialIcon } from "react-social-icons";
 import { ReactSocialMediaIcons } from "react-social-media-icons";
 import Hero from "../components/Hero";
+import "animate.css/animate.min.css";
 
 function AboutMe() {
-  const [activeTab, setActiveTab] = useState('all');
+  const [activeTab, setActiveTab] = useState("all");
   const [frontendTools, setFrontendTools] = useState([]);
   const [backendDatabases, setBackendDatabases] = useState([]);
   const [SkillTools, setSkillTools] = useState([]);
@@ -110,30 +111,30 @@ function AboutMe() {
     <>
       <Hero
         name="About Me"
-        details="Welcome to my portfolio!"
+        details="An introduction of myself"
         backgroundImage="src/assets/about-me-background.png"
       />
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[45rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
+            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInRight">
               Introduction
             </h3>
             <img
-              src="src/assets/mai-profile.jpg"
+              src="src/assets/background-project.jpg"
               alt="About Me"
-              className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-2xl"
+              className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full"
             />
             <br />
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Greetings, I&apos;m Mohamed
+            <p className="text-base whitespace-break-spaces font-robotoOriginal animate__animated animate__fadeIn">
+              Greetings, I&apos;m Mohamed,
               <br />
               <br />
               As a full-stack developer with expertise in front-end and back-end
               skills, I thrive on building and deploying applications. My recent
-              participation in Microverse&apos;s intensive full-stack program has
-              strengthened my skills, as evidenced by my 20+ successful solo and
-              collaborative projects. <br />
+              participation in Microverse&apos;s intensive full-stack program
+              has strengthened my skills, as evidenced by my 15+ successful solo
+              and collaborative projects. <br />
               <br />
               My passion lies in weaving clean, robust code into tangible
               applications. I thrive in collaborative environments where I can
@@ -150,13 +151,13 @@ function AboutMe() {
               networking, IT support, operating systems, design, research,
               full-stack development, and even academic-related projects. <br />
               <br />
-              I&apos;ve dedicated over 1,300+ hours to mastering algorithms, data
-              structures, and full-stack development. This dedication translated
-              into practical experience as I simultaneously built projects
-              utilizing HTML, CSS, Ruby, Rails, JavaScript, React, and Redux.
-              Moreover, I&apos;ve actively collaborated with remote developers from
-              around the globe and boosted my teamwork skills through numerous
-              group projects. <br />
+              I&apos;ve dedicated over 1,300+ hours to mastering algorithms,
+              data structures, and full-stack development. This dedication
+              translated into practical experience as I simultaneously built
+              projects utilizing HTML5, CSS3, Ruby, Ruby on Rails, JavaScript,
+              React, and Redux. Moreover, I&apos;ve actively collaborated with
+              remote developers from around the globe and boosted my teamwork
+              skills through numerous group projects. <br />
               <br />
               Motivated by a desire to contribute to impactful work, I seek
               opportunities with mission-driven companies that prioritize
@@ -166,12 +167,23 @@ function AboutMe() {
               bring professionalism and enthusiasm to the table, confident in my
               ability to make a significant contribution to your team. <br />
               <br />
-              If you&apos;re looking for a committed developer, let&apos;s 
-              get in touch!
+              If you&apos;re looking for a committed developer, let&apos;s get
+              in touch!
             </p>
+            <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
+              <a
+                href="https://docs.google.com/document/d/10aKwG5M8Q0UozSecJdDe7ipX0eyMuoFZvQSNt3-qggE/edit?usp=sharing"
+                className="p-3 px-8 text-black bg-gradient-to-r from-blue-500 to-violet-600 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoIosPaper className="text-2xl" />
+                MY RESUME / CV
+              </a>
+            </div>
           </article>
           <article className="max-w-[45rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed">
+            <h3 className="font-bold text-[2rem] mb-4 font-robotoCondensed animate__animated animate__slideInRight">
               My Skills
             </h3>
             <motion.div
@@ -186,40 +198,40 @@ function AboutMe() {
               className="flex flex- justify-center items-start gap-0 mb-10 md:gap-3"
             >
               <button
-                className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white ${
+                className={`py-2 px-3 text-red-500 font-semibold font-robotoOriginal border-0 rounded-md dark:text-white ${
                   activeTab === "all"
-                    ? "bg-green-500 text-black  hover:bg-green-500"
-                    : "hover:text-black hover:bg-green-500"
+                    ? "bg-violet-500 text-white  hover:bg-violet-500"
+                    : "hover:text-white hover:bg-violet-500"
                 }`}
                 onClick={() => handleTabChange("all")}
               >
                 All
               </button>
               <button
-                className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
+                className={`py-2 px-3 text-red-500 font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
                   activeTab === "frontend"
-                    ? "bg-green-500 text-black  hover:bg-green-500"
-                    : "hover:text-black hover:bg-green-500"
+                    ? "bg-violet-500 text-white  hover:bg-violet-500"
+                    : "hover:text-white hover:bg-violet-500"
                 }`}
                 onClick={() => handleTabChange("frontend")}
               >
                 Frontend
               </button>
               <button
-                className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
+                className={`py-2 px-3 text-red-500 font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
                   activeTab === "backend"
-                    ? "bg-green-500 text-black  hover:bg-green-500"
-                    : "hover:text-black  hover:bg-green-500"
+                    ? "bg-violet-500 text-white  hover:bg-violet-500"
+                    : "hover:text-white  hover:bg-violet-500"
                 }`}
                 onClick={() => handleTabChange("backend")}
               >
                 Backend
               </button>
               <button
-                className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white hover:bg-green-500 ${
+                className={`py-2 px-3 text-red-500 font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white hover:bg-green-500 ${
                   activeTab === "tools"
-                    ? "bg-green-500 text-black hover:bg-green-500"
-                    : "hover:text-black"
+                    ? "bg-violet-500 text-white hover:bg-violet-500"
+                    : "hover:text-white hover:bg-violet-500"
                 }`}
                 onClick={() => handleTabChange("tools")}
               >
@@ -368,24 +380,9 @@ function AboutMe() {
                 </div>
               )}
             </article>
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
-              Front-End: HTML5, CSS3, JavaScript, React, Angular, Vue.js, Redux,
-              jQuery, Tailwind CSS, Bootstrap <br />
-              <br />
-              Back-End: Java, Python, PHP, C/C++, Ruby, Rails, Node.js, SQL,
-              NoSQL, MongoDB, MySQL, PostgreSQL, Laravel <br />
-              <br />
-              Tools & Methods: Git, GitHub, Docker, Kubernetes, Agile
-              development, Scrum, Kanban, Heroku, Netlify, Mobile/Responsive
-              Development, RSpec, TDD, Chrome Dev Tools<br />
-              <br />
-              Professional: Communication, Problem-solving, Teamwork, Mentoring,
-              Leadership, Adaptability, Critical thinking, Creativity, Research,
-              Remote Pair-Programming
-            </p>
           </article>
           <article className="max-w-[45rem] mx-auto">
-            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed">
+            <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInRight">
               Connect with me
             </h3>
             <br />
@@ -393,50 +390,74 @@ function AboutMe() {
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://facebook.com/katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://instagram.com/m.ighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://x.com/katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://youtube.com/@katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://linkedin.com/in/mighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://github.com/katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://www.reddit.com/user/Katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://medium.com/@katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://scholar.google.com/citations?user=p_BiBB0AAAAJ&hl=en"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://api.whatsapp.com/send?phone=16473739841"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://telegram.me/katarighe"
+                target="_blank"
+                rel="noopener"
               />{" "}
               <SocialIcon
                 className="hover:scale-110 transition-transform duration-400"
                 url="https://www.snapchat.com/add/m.ighe?share_id=VL1Yc5t5ObQ&locale=en-US"
+                target="_blank"
+                rel="noopener"
               />{" "}
             </p>
             <br />
@@ -452,6 +473,8 @@ function AboutMe() {
                         iconColor="rgba(255,255,255,1)"
                         url="https://line.me/ti/p/mH4XEel70b"
                         size="50"
+                        target="_blank"
+                        rel="noopener"
                       />
                     </td>
                     <td className="whitespace-break-spaces">
@@ -462,6 +485,8 @@ function AboutMe() {
                         iconColor="rgba(255,255,255,1)"
                         url="https://msng.link/o?katarighe=fm"
                         size="50"
+                        target="_blank"
+                        rel="noopener"
                       />
                     </td>
                     <td className="whitespace-break-spaces">
@@ -472,6 +497,8 @@ function AboutMe() {
                         iconColor="rgba(255,255,255,1)"
                         url="live:m.ighe"
                         size="50"
+                        target="_blank"
+                        rel="noopener"
                       />
                     </td>
                     <td className="whitespace-break-spaces">
@@ -482,6 +509,8 @@ function AboutMe() {
                         iconColor="rgba(255,255,255,1)"
                         url="https://wellfound.com/u/katarighe"
                         size="50"
+                        target="_blank"
+                        rel="noopener"
                       />
                     </td>
                   </tr>
@@ -489,21 +518,21 @@ function AboutMe() {
               </table>
             </div>
             <br />
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
+            <p className="text-base whitespace-break-spaces font-robotoOriginal animate__animated animate__fadeIn">
               Please feel free to explore the diverse social media channels and
               other portals. Let&apos;s establish a community where ideas flow,
               knowledge grows, and connections flourish. I am excited to hear
               from you and embark on this journey together!
             </p>
             <br />
-            <p className="text-base whitespace-break-spaces font-robotoOriginal">
+            <p className="text-base whitespace-break-spaces font-robotoOriginal animate__animated animate__fadeIn">
               You can also contact me directly by clicking the button below.
             </p>
           </article>
           <div className="flex flex-col justify-center items-center gap-10 mt-10 md:flex-row">
             <Link
               to="/contact"
-              className="p-3 px-10 text-black bg-gradient-to-r from-indigo-300 to-blue-400 flex justify-center items-center gap-1 w-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
+              className="p-3 px-8 text-black bg-gradient-to-r from-blue-500 to-violet-600 text-lg flex justify-center items-center gap-1 rounded-full md:w-fit font-robotoCondensed hover:scale-110 transition-transform duration-300"
             >
               <IoIosChatboxes className="text-2xl" />
               CONTACT ME
