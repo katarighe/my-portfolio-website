@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Dialog } from "@headlessui/react";
 import { BiMenuAltRight, BiX } from "react-icons/bi";
 import logo from "../assets/logo/mai-logo.png";
-import '../styles/menu-animations.css';
 
 const navigation = [
   { name: "Home", href: "/" },
