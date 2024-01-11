@@ -201,7 +201,7 @@ function AboutMe() {
               className="flex flex- justify-center items-start gap-0 mb-10 md:gap-3"
             >
               <button
-                className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white ${
+                className={`py-2 px-3 text-red-500 font-semibold font-robotoOriginal border-0 rounded-md dark:text-white ${
                   activeTab === "all"
                     ? "bg-violet-500 text-white  hover:bg-violet-500"
                     : "hover:text-white hover:bg-violet-500"
@@ -211,7 +211,7 @@ function AboutMe() {
                 All
               </button>
               <button
-                className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
+                className={`py-2 px-3 text-red-500 font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
                   activeTab === "frontend"
                     ? "bg-violet-500 text-white  hover:bg-violet-500"
                     : "hover:text-white hover:bg-violet-500"
@@ -221,7 +221,7 @@ function AboutMe() {
                 Frontend
               </button>
               <button
-                className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
+                className={`py-2 px-3 text-red-500 font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white ${
                   activeTab === "backend"
                     ? "bg-violet-500 text-white  hover:bg-violet-500"
                     : "hover:text-white  hover:bg-violet-500"
@@ -231,7 +231,7 @@ function AboutMe() {
                 Backend
               </button>
               <button
-                className={`py-2 px-3 text-newDarkGray font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white hover:bg-green-500 ${
+                className={`py-2 px-3 text-red-500 font-semibold font-robotoOriginal border-0 rounded-md dark:text-white hover:text-white hover:bg-green-500 ${
                   activeTab === "tools"
                     ? "bg-violet-500 text-white hover:bg-violet-500"
                     : "hover:text-white hover:bg-violet-500"
