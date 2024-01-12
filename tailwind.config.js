@@ -21,6 +21,9 @@ export default {
         robotoOriginal: ['Roboto', 'sans-serif'],
         robotoCondensed: ['Roboto Condensed', 'sans-serif'],
       },
+      boxShadow: {
+        custom: 'rgb(85, 91, 255) 0 0 50px 5px',
+      },
     },
   },
   // eslint-disable-next-line no-undef
