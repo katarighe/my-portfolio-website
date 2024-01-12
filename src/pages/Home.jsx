@@ -25,6 +25,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Hero from "../components/Hero";
 import "animate.css/animate.min.css";
+import profile from "../assets/mai-profile.JPG";
 import smartpocket from "../assets/smartpocket-budget.JPG";
 import worldatlas from "../assets/mini-world-atlas.JPG";
 import bookadoctor from "../assets/book-a-doctor.JPG";
@@ -148,7 +149,7 @@ function Home() {
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto animate__animated animate__fadeIn">
             <img
-              src={"/src/assets/profile.PNG"}
+              src={profile}
               alt="About Me"
               className="mr-5 max-w-[15rem] max-h-[15rem] object-right rounded-full md:float-right md:object animate__animated animate__fadeIn shadow-custom"
             />{" "}
