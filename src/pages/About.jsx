@@ -33,6 +33,7 @@ import {
 import { SocialIcon } from "react-social-icons";
 import { ReactSocialMediaIcons } from "react-social-media-icons";
 import Hero from "../components/Hero";
+import profile from "../assets/mai-profile.JPG";
 import "animate.css/animate.min.css";
 
 function AboutMe() {
@@ -117,7 +118,7 @@ function AboutMe() {
               Introduction
             </h3>
             <img
-              src={"/src/assets/profile.PNG"}
+              src={profile}
               alt="About Me"
               className="mr-5 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full animate__animated animate__fadeIn shadow-custom"
             />
