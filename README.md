@@ -4,7 +4,7 @@
   <img src="src/assets/mai-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Website</b></h3>
+  <h3><b>My Portfolio Website</b></h3>
 
 </div>
 
@@ -32,17 +32,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 My Portfolio Website <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+Step into the world of my creative journey as you explore my portfolio! Here, you'll discover a curated collection of my projects that reflect my passion, skills, and dedication. Take a closer look at the intricate details of each endeavor, from innovative concepts to polished executions. Delve into my professional background and experience, gaining insights into the diverse challenges I've tackled and conquered. Uncover the building blocks of my knowledge and expertise through an in-depth exploration of my educational journey. Whether you're here to appreciate the aesthetics of my designs, understand the strategy behind my projects, or trace the evolution of my skills, this portfolio is your gateway to understanding the essence of who I am as a creative professional. Enjoy the seamless navigation, and feel free to reach out with any questions or opportunities for collaboration.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
