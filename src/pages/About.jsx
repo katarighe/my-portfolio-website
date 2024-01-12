@@ -107,29 +107,20 @@ function AboutMe() {
     }),
   };
 
-  const ProfileImage = () => {
-    return (
-      <img
-        src="/src/assets/mai-profile.JPG"
-        alt="About Me"
-        className="mr-5 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full animate__animated animate__fadeIn shadow-custom"
-      />
-    );
-  };
-  
   return (
     <>
-      <Hero
-        name="About Me"
-        details="An introduction of myself"
-      />
+      <Hero name="About Me" details="An introduction of myself" />
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[45rem] mx-auto">
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInRight">
               Introduction
             </h3>
-            <ProfileImage />
+            <img
+              src={"/src/assets/profile.PNG"}
+              alt="About Me"
+              className="mr-5 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full animate__animated animate__fadeIn shadow-custom"
+            />
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal animate__animated animate__fadeIn">
               Greetings, I&apos;m Mohamed,
