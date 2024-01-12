@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import "animate.css/animate.min.css";
 
-function Hero({ name, details, backgroundImage }) {
+function Hero({ name, details }) {
   const sectionStyle = {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
