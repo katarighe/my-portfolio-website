@@ -146,7 +146,6 @@ function Home() {
       <Hero
         name="Mohamed Aden Ighe"
         details="Full Stack Web Developer"
-        backgroundImage="src/assets/coding-background.jpg"
       />
       <section className="text-black">
         <div className="container space-y-10 py-16">

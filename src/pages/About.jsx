@@ -112,7 +112,6 @@ function AboutMe() {
       <Hero
         name="About Me"
         details="An introduction of myself"
-        backgroundImage="src/assets/about-me-background.png"
       />
       <section className="text-black">
         <div className="container space-y-10 py-16">
