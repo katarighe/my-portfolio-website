@@ -120,7 +120,7 @@ function AboutMe() {
               Introduction
             </h3>
             <img
-              src="src/assets/background-project.jpg"
+              src="src/assets/mai-profile.JPG"
               alt="About Me"
               className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full"
             />
