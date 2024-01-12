@@ -25,7 +25,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Hero from "../components/Hero";
 import "animate.css/animate.min.css";
-import profile from "../assets/mai-profile.JPG";
+import profile from "../assets/mai-profile.jpg";
 import smartpocket from "../assets/smartpocket-budget.JPG";
 import worldatlas from "../assets/mini-world-atlas.JPG";
 import bookadoctor from "../assets/book-a-doctor.JPG";
