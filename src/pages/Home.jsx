@@ -144,7 +144,7 @@ function Home() {
   const ProfileImage = () => {
     return (
         <img
-          src="src/assets/mai-profile.JPG"
+          src="src/assets/mai-profile.jpg"
           alt="About Me"
           className="mr-5 max-w-[15rem] max-h-[15rem] object-right rounded-full md:float-right md:object animate__animated animate__fadeIn shadow-custom"
         />
