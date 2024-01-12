@@ -143,24 +143,21 @@ function Home() {
 
   const ProfileImage = () => {
     return (
-        <img
-          src="/src/assets/mai-profile.JPG"
-          alt="About Me"
-          className="mr-5 max-w-[15rem] max-h-[15rem] object-right rounded-full md:float-right md:object animate__animated animate__fadeIn shadow-custom"
-        />
+      <img
+        src="/src/assets/mai-profile.JPG"
+        alt="About Me"
+        className="mr-5 max-w-[15rem] max-h-[15rem] object-right rounded-full md:float-right md:object animate__animated animate__fadeIn shadow-custom"
+      />
     );
   };
-  
+
   return (
     <>
-      <Hero
-        name="Mohamed Aden Ighe"
-        details="Full Stack Web Developer"
-      />
+      <Hero name="Mohamed Aden Ighe" details="Full Stack Web Developer" />
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto animate__animated animate__fadeIn">
-          <ProfileImage />
+            <ProfileImage />
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInDown">
               About Me
             </h3>
