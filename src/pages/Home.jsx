@@ -25,6 +25,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Hero from "../components/Hero";
 import "animate.css/animate.min.css";
+import profile from "../assets/mai-profile.jpg";
 import smartpocket from "../assets/smartpocket-budget.JPG";
 import worldatlas from "../assets/mini-world-atlas.JPG";
 import bookadoctor from "../assets/book-a-doctor.JPG";
@@ -143,19 +144,15 @@ function Home() {
 
   return (
     <>
-      <Hero
-        name="Mohamed Aden Ighe"
-        details="Full Stack Web Developer"
-        backgroundImage="src/assets/coding-background.jpg"
-      />
+      <Hero name="Mohamed Aden Ighe" details="Full Stack Web Developer" />
       <section className="text-black">
         <div className="container space-y-10 py-16">
           <article className="max-w-[35rem] mx-auto animate__animated animate__fadeIn">
             <img
-              src="src/assets/background-project.jpg"
+              src={profile}
               alt="About Me"
-              className="mr-3 max-w-[15rem] max-h-[15rem] object-right md:float-right md:object rounded-full"
-            />
+              className="mr-5 max-w-[15rem] max-h-[15rem] object-right rounded-full md:float-right md:object animate__animated animate__fadeIn shadow-custom"
+            />{" "}
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInDown">
               About Me
             </h3>

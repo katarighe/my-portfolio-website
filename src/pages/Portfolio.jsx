@@ -144,7 +144,6 @@ function MyProjects() {
       <Hero
         name="Portfolio"
         details="Projects Crafted with Care"
-        backgroundImage="src/assets/my-projects-background.jpg"
       />
       <div className="flex flex-col justify-center items-center px-10 gap-10 mt-10 md:flex-row mx-auto animate__animated animate__fadeInDown">
         <p className="text-xl font-robotoOriginal">
