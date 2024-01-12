@@ -107,6 +107,16 @@ function AboutMe() {
     }),
   };
 
+  const ProfileImage = () => {
+    return (
+      <img
+        src="src/assets/mai-profile.JPG"
+        alt="About Me"
+        className="mr-5 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full animate__animated animate__fadeIn shadow-custom"
+      />
+    );
+  };
+  
   return (
     <>
       <Hero
@@ -119,11 +129,7 @@ function AboutMe() {
             <h3 className="font-bold text-[2rem] mb-1 font-robotoCondensed animate__animated animate__slideInRight">
               Introduction
             </h3>
-            <img
-              src="src/assets/mai-profile.JPG"
-              alt="About Me"
-              className="mr-4 max-w-[20rem] max-h-[20rem] object-right md:float-right md:object rounded-full"
-            />
+            <ProfileImage />
             <br />
             <p className="text-base whitespace-break-spaces font-robotoOriginal animate__animated animate__fadeIn">
               Greetings, I&apos;m Mohamed,

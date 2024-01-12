@@ -22,6 +22,7 @@ function Hero({ name, details, backgroundImage }) {
 Hero.defaultProps = {
   name: 'Your Name',
   details: 'WEB-DESIGNER',
+  backgroundImage: '../assets/coding-background.jpg',
 };
 
 Hero.propTypes = {
