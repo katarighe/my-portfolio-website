@@ -3,7 +3,6 @@ import "animate.css/animate.min.css";
 
 function Hero({ name, details, backgroundImage }) {
   const sectionStyle = {
-    backgroundImage: `url(${backgroundImage})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
