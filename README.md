@@ -215,9 +215,10 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+- I want to express my gratitude to my colleague [Ticoniq](https://github.com/ticoniq/) for assisting me in constructing this portfolio website from scratch.
+- [Link to the original design theme](https://github.com/ticoniq/portfolio-design)
+- Project supervised by [Microverse](https://www.microverse.org/)
+- [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
