@@ -171,19 +171,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Mohamed Aden Ighe**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@katarighe](https://github.com/katarighe)
+- Twitter: [@katarighe](https://twitter.com/katarighe)
+- LinkedIn: [@mighe](https://linkedin.com/in/mighe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
