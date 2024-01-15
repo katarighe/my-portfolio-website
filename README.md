@@ -40,21 +40,26 @@ Step into the world of my creative journey as you explore my portfolio! Here, yo
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://developer.mozilla.org/en/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://vitejs.dev/">Vite</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>Design</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://sass-lang.com/">SCSS</a></li>
+    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+    <li><a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
   </ul>
 </details>
 
