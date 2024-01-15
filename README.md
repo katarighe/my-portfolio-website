@@ -54,7 +54,6 @@ Step into the world of my creative journey as you explore my portfolio! Here, yo
 <details>
 <summary>Design</summary>
   <ul>
-    <li><a href="https://sass-lang.com/">SCSS</a></li>
     <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
     <li><a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
   </ul>
