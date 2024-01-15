@@ -70,9 +70,7 @@ Step into the world of my creative journey as you explore my portfolio! Here, yo
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://katarighe.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
