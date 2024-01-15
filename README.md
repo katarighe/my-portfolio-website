@@ -16,12 +16,9 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -82,83 +79,59 @@ The features incorporated into my personal portfolio website are as follows:
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-### Setup
-
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
 ```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
+git clone git@github.com:katarighe/my-portoflio-website.git
+cd my-portoflio-website
 ```
---->
 
-### Usage
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To run the project, execute the following command:
+### Install <a name="install"></a>
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
+Install this project by using:
 
 ```
- -->
+npm install
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Usage <a name="usage"></a>
+
+- Install dependencies
+
+```bash
+npm i 
+or
+npm install
+```
+- Start the development server
+```bash
+npm start
+```
+
+- Test the frontend project
+```bash
+npm run test
+```
+
+- To run the p project run `npm run dev` and then run `npm run build` when you're done.
+
+To add more features in the project, you will neeed to either create a new branch.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests <a name="run-tests"></a>
+
+To ensure code quality and prevent typos, we've integrated linters and tests into this project. 
+
+For your convenience, you can use the following commands to check your HTML and CSS files while working in this repository:
+
+```sh
+  npx eslint "**/*.{js,jsx}"
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
