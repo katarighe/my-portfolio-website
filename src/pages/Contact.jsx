@@ -17,7 +17,7 @@ function Contact() {
             love to help with it.
           </h2>
           <form
-            action="https://formspree.io/f/mlekylyd"
+            action="https://formsubmit.co/info@katarighe.tech"
             method="post"
             className="mt-8 animate__animated animate__slideInRight"
           >
