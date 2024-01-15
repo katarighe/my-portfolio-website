@@ -146,11 +146,19 @@ For your convenience, you can use the following commands to check your HTML and 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+Here are some future features that could be added to the portfolio website in the future.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Blog Section:** Introducing a blog to share insights, experiences, and updates on the latest trends in web development and technology.
+- **Interactive Resume:** Enhancing the portfolio with an interactive and dynamic resume section, providing a detailed overview of my professional journey.
+- **Skill Progression Chart:** Incorporating a visual representation of my skill progression over time, showcasing continuous learning and development.
+- **Client Testimonials:** Adding a section to display testimonials from satisfied clients or collaborators, enhancing credibility and showcasing successful collaborations.
+- **Responsive Design Improvements:** Continuously refining and optimizing the website's responsiveness to ensure a seamless user experience across various devices.
+
+These are just a few potential future features for the portfolio website. 
+
+They aim to further enrich the user experience and provide a comprehensive view of my skills, projects, and professional journey.
+
+The specific features that are implemented will depend on the needs and preferences of the users, as well as the available resources and technology.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
