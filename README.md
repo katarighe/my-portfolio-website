@@ -60,11 +60,12 @@ Step into the world of my creative journey as you explore my portfolio! Here, yo
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+The features incorporated into my personal portfolio website are as follows:
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Home:** A webpage featuring a concise overview, skills, and portfolio.
+- **Portfolio:** Displays a portfolio featuring more than 15 projects developed with robust technology stacks, incorporating HTML5/CSS3, JavaScript, React/Redux, API, Ruby, and Ruby on Rails.
+- **About:** Offers a concise self-introduction, highlights my skill set, and establishes connections with various social media networks.
+- **Contact:** Encourages users to leave a message if they are interested in initiating a project or require assistance with coding activities.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
